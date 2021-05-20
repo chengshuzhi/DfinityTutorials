@@ -1,7 +1,5 @@
 # 探索connected的源代码
 
-
-
 社交链接canister connectd由下面的文件构成：
 
 * digraph.mo文件提供创建一个有向的点线图来描述用户的连接关系

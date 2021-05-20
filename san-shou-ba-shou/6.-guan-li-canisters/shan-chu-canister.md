@@ -13,15 +13,15 @@
 
 如果要在远程网络上删除Canister，则应包括--network命令行选项，以在该网络上执行任务。
 
-    3. 运行以下命令，检查项目Canister运行状态：
+1. 运行以下命令，检查项目Canister运行状态：
 
 **`dfx canister status --all`**
 
-    4. 运行以下命令停止项目所有Canister：
+1. 运行以下命令停止项目所有Canister：
 
 **`dfx canister stop --all`**
 
-    5. 运行以下命令删除项目所有Canister：
+1. 运行以下命令删除项目所有Canister：
 
 **`dfx canister delete --all`**
 

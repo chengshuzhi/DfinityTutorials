@@ -9,9 +9,8 @@
 
 **`dfx stop`**
 
-     3. 删除.dfx目录
-
-    4. 使用以下命令启动Internet Computer网络
+1. 删除.dfx目录
+   1. 使用以下命令启动Internet Computer网络
 
 **`dfx start --clean`**
 

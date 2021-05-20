@@ -5,21 +5,20 @@
 为Canister注册唯一标识符：
 
 1. 在本地计算机打开终端
-2.  通过运行与以下命令类似的命令，为计划创建的Canister创建一个新项目：
+2. 通过运行与以下命令类似的命令，为计划创建的Canister创建一个新项目：
 
 **`dfx new YOUR-PROJECT-NAME`**
 
 请注意，默认情况下，您用于项目的名称也用作Canister名称。
 
-    3. 进入新项目目录
-
-    4. 打开dfx.json配置文件，并设置要使用的Internet Computer网络的主机和端口。
+1. 进入新项目目录
+2. 打开dfx.json配置文件，并设置要使用的Internet Computer网络的主机和端口。
 
 如果您将本地主机用作Internet Computer网络提供者，则可以跳过此步骤。
 
 如果您想在编译代码前为其他Canister创建标识符，在配置文件中可以随意修改Canister名字或添加Canister设置
 
-    5. 运行以下命令启动Internet Compter网络
+1. 运行以下命令启动Internet Compter网络
 
 **`dfx start --background`**
 
@@ -27,7 +26,7 @@
 
 如果要注册要在远程网络上运行的Canister，则应包括--network命令行选项，以在该网络上执行任务。
 
-    6. 通过运行以下命令，为dfx.json中定义的Canister注册唯一标识符：
+1. 通过运行以下命令，为dfx.json中定义的Canister注册唯一标识符：
 
 **`dfx canister create --all`**
 

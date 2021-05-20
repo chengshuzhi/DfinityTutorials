@@ -8,7 +8,7 @@
 
 **`dfx new access_hello`**
 
-    4. 运行下列命令进入项目目录：
+1. 运行下列命令进入项目目录：
 
 **`cd access_hello`**
 

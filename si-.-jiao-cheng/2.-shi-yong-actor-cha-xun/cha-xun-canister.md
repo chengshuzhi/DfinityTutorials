@@ -10,7 +10,7 @@
 dfx canister call actor_hello hello
 ```
 
-    2. 验证hello函数在本地网络进程中输出了相应的检查消息
+1. 验证hello函数在本地网络进程中输出了相应的检查消息
 
 例如，程序会输出类似以下内容
 

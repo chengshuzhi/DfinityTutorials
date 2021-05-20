@@ -10,11 +10,9 @@
 dfx new cycles_hello
 ```
 
-    4. 进入项目目录
+1. 进入项目目录
 
 ```text
 cd cycles_hello
 ```
-
-
 

@@ -11,19 +11,19 @@
 
 例如，如果在macOS上运行Terminal，请单击Shell，然后选择New Tab在当前工作目录中打开一个新终端。
 
-    2. 通过运行以下命令，在第二个终端中的本地计算机上启动Internet Computer网络：
+1. 通过运行以下命令，在第二个终端中的本地计算机上启动Internet Computer网络：
 
 **`dfx start`**
 
-    3. 通过运行以下命令，为reverse应用程序注册唯一的容器标识符
+1. 通过运行以下命令，为reverse应用程序注册唯一的容器标识符
 
 **`dfx canister create --all`**
 
-    4. 通过运行以下命令在本地网络上部署默认程序：
+1. 通过运行以下命令在本地网络上部署默认程序：
 
 **`dfx canister install --all`**
 
-    5. 通过运行以下命令在程序中调用go函数：
+1. 通过运行以下命令在程序中调用go函数：
 
 ```text
 dfx canister call reverse go reward

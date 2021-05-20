@@ -15,11 +15,9 @@ service counter : {
 
 在这个例子中，命名为counter（计数器） 的service（服务），包含了以下的公共方法（method）：
 
-- Add方法和subtract方法改变counter的值。
-
-- Get方法读取了Counter的当前数值
-
-- Subscribe方法可用于调用另一个函数，例如，每次Counter的值更改时调用"通知回复"方法。
+* Add方法和subtract方法改变counter的值。
+* Get方法读取了Counter的当前数值
+* Subscribe方法可用于调用另一个函数，例如，每次Counter的值更改时调用"通知回复"方法。
 
 _如本示例所示，每个方法（method）都有一系列参数和结果类型。 方法（method）还包括用于特定于互联网计算机的Annotations（注释）， 如本示例中所示的query（查询）。_
 
@@ -31,10 +29,10 @@ _除了互操作性之外，Candid还可以通过精确识别哪些变更可以�
 
 _第一眼看到这个的时候，你也许会想其他的语言，例如JSON，XML，或者Protobuf，已经足够了。然而，Candid拥有一个独特的融合特点，是这些技术所没有的。这个特点让Candid特别适合开发运行在互联网计算机上的应用，包括如下：_
 
-*   _JSON，XML和Protobuf等许多语言仅描述如何将单个值映射到字节或字符。这些数据描述语言无法整体描述service（服务）的内容。 这些语言专注于要传输的数据类型，而不是使用这些数据类型的方法。_
-*  _Candid实现将Candid值直接映射到Host语言的类型和值。 使用Candid，程序员无需构造或解构某些抽象的Candid值。_
-*  _Candid定义了有关如何以合理且有条理的方式升级服务及其接口的规则。_
-*  _Candid本质上是一种高级语言。 使用Candid，您不仅可以传递纯数据，还包括对服务和方法的引用。 Candid支持更高级别的安全升级。_
+* _JSON，XML和Protobuf等许多语言仅描述如何将单个值映射到字节或字符。这些数据描述语言无法整体描述service（服务）的内容。 这些语言专注于要传输的数据类型，而不是使用这些数据类型的方法。_
+* _Candid实现将Candid值直接映射到Host语言的类型和值。 使用Candid，程序员无需构造或解构某些抽象的Candid值。_
+* _Candid定义了有关如何以合理且有条理的方式升级服务及其接口的规则。_
+* _Candid本质上是一种高级语言。 使用Candid，您不仅可以传递纯数据，还包括对服务和方法的引用。 Candid支持更高级别的安全升级。_
 * _Candid内置了支持互联网计算机的功能，例如`query`_ 
 
 **Candid** **类型和值**
@@ -56,7 +54,7 @@ _这组类型背后的理念是，它们能充分描述数据的结构，因此�
 
 **Candid的service（服务）描述**
 
-_如果你熟悉了Candid类型，就可以使用它们来描述service（服务）。  Candid的service描述文件（.DID文件）可以手工编写，也可以从service执行中生成。_
+_如果你熟悉了Candid类型，就可以使用它们来描述service（服务）。 Candid的service描述文件（.DID文件）可以手工编写，也可以从service执行中生成。_
 
 _在探索如何为特定host语言生成service（服务）描述之前，让我们仔细研究一下service例子的描述的结构及其组成部分。_
 
@@ -68,7 +66,7 @@ _这个service并没有什么功能，所以让我们增加一个简单的method
 
 _**`service : {`**_
 
-  _**`ping : () -> ();`**_
+_**`ping : () -> ();`**_
 
 _**`}`**_
 
@@ -80,9 +78,9 @@ _现在，您已经看到了最简单的例子，让我们考虑一个稍微复�
 
 _**`service : {`**_
 
-  _**`reverse : (text) -> (text);`**_
+_**`reverse : (text) -> (text);`**_
 
-  _**`divMod : (dividend : nat, divisor : nat) -> (div : nat, mod : nat);`**_
+_**`divMod : (dividend : nat, divisor : nat) -> (div : nat, mod : nat);`**_
 
 _**`}`**_
 
@@ -96,7 +94,7 @@ _在前面的示例中，divMod方法的签名包括了参数和返回值的名�
 
 _特别地，Candid不会阻止您将类型更改为：_
 
-  _divMod : \(dividend : nat, divisor : nat\) -&gt; \(mod : nat, div : nat\);_
+_divMod : \(dividend : nat, divisor : nat\) -&gt; \(mod : nat, div : nat\);_
 
 _或将上面的divMod传递给需要首先返回值为mod的一种method（方法）的service（服务）。_
 

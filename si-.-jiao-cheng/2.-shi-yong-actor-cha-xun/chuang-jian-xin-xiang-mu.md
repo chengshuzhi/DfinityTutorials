@@ -8,7 +8,7 @@
 
 **`dfx new actor_hello`**
 
-    4. 进入项目目录
+1. 进入项目目录
 
 **`cd actor_hello`**
 

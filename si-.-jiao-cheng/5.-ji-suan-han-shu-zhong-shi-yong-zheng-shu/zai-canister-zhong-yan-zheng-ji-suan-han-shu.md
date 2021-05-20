@@ -1,7 +1,5 @@
 # 在Canister中验证计算函数
 
-
-
 现在，项目已经部署到本地ICP网络，并且可以使用dfx canister call命令进行测试。
 
 测试部署的程序步骤如下
@@ -20,37 +18,37 @@ dfx canister call calc add '(10)'
 (10)
 ```
 
-    2. 运行下面的命令调用mul函数并传递参数3
+1. 运行下面的命令调用mul函数并传递参数3
 
 ```text
 dfx canister call calc mul '(3)'
 ```
 
- 验证命令返回值是否符合mul函数执行结果的期望。例如，程序输出为
+验证命令返回值是否符合mul函数执行结果的期望。例如，程序输出为
 
 ```text
 (30)
 ```
 
-    3. 运行下面的命令调用sub函数并传递参数5
+1. 运行下面的命令调用sub函数并传递参数5
 
 ```text
 dfx canister call calc sub '(5)'
 ```
 
- 验证命令返回值是否符合sub函数执行结果的期望。例如，程序输出为
+验证命令返回值是否符合sub函数执行结果的期望。例如，程序输出为
 
 ```text
 (25)
 ```
 
-    4. 运行下面的命令调用div函数并传递参数5
+1. 运行下面的命令调用div函数并传递参数5
 
 ```text
 dfx canister call calc div '(5)'
 ```
 
- 验证命令返回值是否符合div函数执行结果的期望。例如，程序输出为
+验证命令返回值是否符合div函数执行结果的期望。例如，程序输出为
 
 ```text
 (opt 5)
@@ -64,13 +62,13 @@ dfx canister call calc div '(5)'
 dfx canister call calc mul '(-4)'
 ```
 
- 返回
+返回
 
 ```text
 (-20)
 ```
 
-    5. 运行下面的命令调用clearall函数并验证cell变量重置为0
+1. 运行下面的命令调用clearall函数并验证cell变量重置为0
 
 ```text
 dfx canister call calc clearall

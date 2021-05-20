@@ -9,9 +9,7 @@
 
 **`dfx new contacts`**
 
-    5. 进入项目目录
+1. 进入项目目录
 
 **`cd contacts`**
-
-
 

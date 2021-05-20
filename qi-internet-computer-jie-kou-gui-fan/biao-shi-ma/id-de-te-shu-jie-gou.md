@@ -4,19 +4,19 @@
 
 id有几种类别：
 
-1.  _不透明ID_。
+1. _不透明ID_。
 
 这些总是由系统生成的，并且在系统外部没有任何有意义的结构。
 
 > **注意：**
-
+>
 > 通常，这些以byte 0x01结尾，但是IC的用户不必关心这一点。
 
 1. _自我认证ID_。
 
 格式：H\(public\_key\) · 0x02 （29字节）。
 
- 如果外部用户拥有相应的私钥，则可以将这些ID作为 sender 用作请求的ID 。公钥使用[签名](https://sdk.dfinity.org/docs/interface-spec/index.html#signatures)中的编码之一。
+如果外部用户拥有相应的私钥，则可以将这些ID作为 sender 用作请求的ID 。公钥使用[签名](https://sdk.dfinity.org/docs/interface-spec/index.html#signatures)中的编码之一。
 
 1. _派生ID_
 
@@ -25,7 +25,7 @@ id有几种类别：
 当一个ID需要注册时，将对这些ID进行特殊处理。在这样的请求中，请求ID的人都可以提供derivation\_nonce。通过将其与请求方的标识码进行拼凑，每个标识码都有一个ID空间，只有他们才能从中注册ID。
 
 > **注意：**
-
+>
 > 派生ID当前未在本文档中明确使用，但可以在内部或将来使用。
 
 1. _匿名ID_
