@@ -26,7 +26,7 @@ http://127.0.0.1:8000/?canisterId=cxeji-wacaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-q
 
 ![](https://uploader.shimo.im/f/1gtZisCWme9tDjKz.png!thumbnail)
 
-1. 替换输入框中你想要展示的Name，然后点击Get Greeting查看结果
+1.  替换输入框中你想要展示的Name，然后点击Get Greeting查看结果
 
 例如
 

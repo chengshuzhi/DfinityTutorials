@@ -1,5 +1,7 @@
 # 安装React框架
 
+
+
 如果你不了解React框架，可以在React网站进行探索。
 
 安装React模块步骤如下
@@ -10,13 +12,13 @@
 npm install --save react react-dom
 ```
 
-1. 运行下面的命令安装Typescript加载器
+    2. 运行下面的命令安装Typescript加载器
 
 ```text
 npm install --save typescript ts-loader
 ```
 
-Note
+ Note
 
 另一个安装模块的方法是，你可以编辑package.json文件来添加模块
 

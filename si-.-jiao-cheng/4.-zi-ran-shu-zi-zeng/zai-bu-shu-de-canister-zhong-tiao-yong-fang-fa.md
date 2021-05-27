@@ -16,7 +16,7 @@ dfx canister call my_counter get
 (0)
 ```
 
-1. 运行下面的命令调用increment函数，该函数会将部署的canister当前的currentValue值加1
+    2. 运行下面的命令调用increment函数，该函数会将部署的canister当前的currentValue值加1
 
 ```text
 dfx canister call my_counter increment
@@ -24,19 +24,19 @@ dfx canister call my_counter increment
 
 这个命令会将变量加一-改变状态-但不会有返回值
 
-1. 再次运行下面的命令获取currentValue当前的值
+    3. 再次运行下面的命令获取currentValue当前的值
 
 ```text
 dfx canister call my_counter get
 ```
 
-命令返回currentValue值为1
+ 命令返回currentValue值为1
 
 ```text
 (1)
 ```
 
-1. 运行额外的命令并使用不同的参数来测试其他方法
+    4. 运行额外的命令并使用不同的参数来测试其他方法
 
 例如，运行类似下面的命令设置并返回counter值
 
@@ -45,12 +45,12 @@ dfx canister call my_counter set '(987)'
 dfx canister call my_counter get
 ```
 
-返回值为987
+ 返回值为987
 
 ```text
 dfx canister call my_counter increment
 dfx canister call my_counter get
 ```
 
-返回值为988
+ 返回值为988
 

@@ -21,8 +21,9 @@ module: {
 },
 ```
 
-1. 在项目根目录创建tsconfig.json文件
-2. 编辑器中打开tsconfig.json，复制粘贴下面的内容
+    3. 在项目根目录创建tsconfig.json文件
+
+    4. 编辑器中打开tsconfig.json，复制粘贴下面的内容
 
 ```text
 {
@@ -36,9 +37,11 @@ module: {
 }
 ```
 
-1. 保存修改并关闭tsconfig.json文件继续
-2. 打开默认的src/custom\_greeting\_assets/src/index.js文件，删除7-12行
-3. 复制粘贴下面的示例代码
+    5. 保存修改并关闭tsconfig.json文件继续
+
+    6. 打开默认的src/custom\_greeting\_assets/src/index.js文件，删除7-12行
+
+    7. 复制粘贴下面的示例代码
 
 ```text
 // Insert these lines after the import statements for
@@ -81,13 +84,13 @@ class MyHello extends React.Component {
 render(<MyHello />, document.getElementById('app'));
 ```
 
-1. 运行下面的命令将index.js文件重命名为index.jsx
+    8. 运行下面的命令将index.js文件重命名为index.jsx
 
 ```text
 mv src/custom_greeting_assets/src/index.js src/custom_greeting_assets/src/index.jsx
 ```
 
-1. 打开src/custom\_greeting\_assets/src/index.html文件，将body内容替换为&lt;div id="app"&gt;&lt;/div&gt;
+    9. 打开src/custom\_greeting\_assets/src/index.html文件，将body内容替换为&lt;div id="app"&gt;&lt;/div&gt;
 
 例如
 

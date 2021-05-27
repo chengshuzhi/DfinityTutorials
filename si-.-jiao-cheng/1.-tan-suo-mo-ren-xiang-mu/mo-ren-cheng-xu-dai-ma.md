@@ -1,5 +1,7 @@
 # 默认程序代码
 
+
+
 新项目会包含一个 main.mo 模板源码文件。通过编辑这个文件包含你的代码来加速开发。
 
 接下来以 main.mo 模版文件为例来学习使用 Motoko 编程语言。
@@ -8,7 +10,7 @@
 
 **`pwd`**
 
-1. 编辑器中打开 src/explore\_hello/main.mo 文件查看模板代码
+    2. 编辑器中打开 src/explore\_hello/main.mo 文件查看模板代码
 
 ```text
 actor {
@@ -27,5 +29,5 @@ actor {
 
 之后会深入介绍如何使用 actor 对象和异步消息处理。
 
-1. 关闭 main.mo 继续
+    3. 关闭 main.mo 继续
 

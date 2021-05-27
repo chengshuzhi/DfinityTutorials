@@ -11,15 +11,15 @@ echo '{"canisters":{"reverse":{"main":"reverse"}}}' > dfx.json
 copy
 ```
 
-1. 使用以下命令创建一个build目录
+    2. 使用以下命令创建一个build目录
 
 **`mkdir build`**
 
-1. 运行以下命令创建一个reverse目录
+    3. 运行以下命令创建一个reverse目录
 
 **`mkdir build/reverse`**
 
-1. 运行以下命令拷贝WebAssembly模块到新的build/reverse目录
+    4. 运行以下命令拷贝WebAssembly模块到新的build/reverse目录
 
 **`cp reverse.wasm build/reverse/`**
 

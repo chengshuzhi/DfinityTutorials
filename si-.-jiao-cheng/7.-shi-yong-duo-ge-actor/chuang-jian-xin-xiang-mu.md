@@ -8,7 +8,7 @@
 
 **`dfx new multiple_actors`**
 
-1. 进入项目目录
+    4. 进入项目目录
 
 **`cd multiple_actors`**
 

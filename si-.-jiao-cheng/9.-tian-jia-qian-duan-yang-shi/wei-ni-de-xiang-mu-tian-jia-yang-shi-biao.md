@@ -1,5 +1,7 @@
 # 为你的项目添加样式表
 
+
+
 你现在可以创建一个新的CSS文件并添加到你的项目
 
 添加步骤
@@ -10,14 +12,15 @@
 cd src/contacts_assets/assets/
 ```
 
-1. 重命名main.css文件到mycontacts.css
+    2. 重命名main.css文件到mycontacts.css
 
 ```text
 mv main.css mycontacts.css
 ```
 
-1. 打开mycontacts.css文件并删除已有内容
-2. 定义一些样式属性
+    3. 打开mycontacts.css文件并删除已有内容
+
+    4. 定义一些样式属性
 
 ```text
 html {
@@ -66,18 +69,20 @@ button {
 
 
 #lookupName {
-    margin-right:
+    margin-right: 
 ```
 
-1. 保存更改并关闭mycontacts.css文件继续
-2. 导航到src/contacts\_assets/src目录
+    5. 保存更改并关闭mycontacts.css文件继续
+
+    6. 导航到src/contacts\_assets/src目录
 
 ```text
 cd ../src
 ```
 
-1. 编辑器中打开默认的index.js文件并删除已有内容
-2. 复制粘贴下面的示例代码到index.js文件
+    7. 编辑器中打开默认的index.js文件并删除已有内容
+
+    8. 复制粘贴下面的示例代码到index.js文件
 
 ```text
 import { Actor, HttpAgent } from '@dfinity/agent';
@@ -148,13 +153,13 @@ document.title = "DFINITY CONTACT EXAMPLE";
 render(<Contact />, document.getElementById('contacts'));
 ```
 
-1. 运行下面的命令重命名修改的index.js文件为index.jsx
+    9. 运行下面的命令重命名修改的index.js文件为index.jsx
 
 ```text
 mv index.js index.jsx
 ```
 
-1. 编辑器中打开默认的src/contacts\_assets/src/index.html文件，然后替换main.css为mycontacts.css样式文件，并更新body内容为&lt;div id="contacts"&gt;/div&gt;
+    10. 编辑器中打开默认的src/contacts\_assets/src/index.html文件，然后替换main.css为mycontacts.css样式文件，并更新body内容为&lt;div id="contacts"&gt;/div&gt;
 
 例如
 
@@ -174,7 +179,7 @@ mv index.js index.jsx
 </html>
 ```
 
-1. 回到项目根目录
+    11. 回到项目根目录
 
 例如
 

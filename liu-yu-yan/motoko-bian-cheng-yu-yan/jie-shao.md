@@ -1,6 +1,6 @@
 # 介绍
 
-Motoko是一个现代编程语言，可用于在[Internet Computer](https://sdk.dfinity.org/docs/developers-guide/concepts/what-is-ic.html#ic-overview)平台上的程序，也可用在其他平台的程序上。
+Motoko是一个现代编程语言，可用于在[Internet  Computer](https://sdk.dfinity.org/docs/developers-guide/concepts/what-is-ic.html#ic-overview)平台上的程序，也可用在其他平台的程序上。
 
 **适用性**
 
@@ -8,9 +8,9 @@ Motoko是一种现代语言，旨在供那些对JavaScript或其他现代编程�
 
 **异步通讯和安全运行**
 
-Motoko允许使用现代的编程习惯，包括针对分布式应用程序的特殊编程。 每个应用程序都包含一个与其他actor通信的Actor，无需使用共享状态，而是使用（异步）消息传递。 Motoko的基于actor的编程程序允许人类可读的消息传递模式，并且它们强制每个网络交互服从某些规则并避免某些常见错误。
+Motoko允许使用现代的编程习惯，包括针对分布式应用程序的特殊编程。 每个应用程序都包含一个与其他actor通信的Actor，无需使用共享状态，而是使用（异步）消息传递。  Motoko的基于actor的编程程序允许人类可读的消息传递模式，并且它们强制每个网络交互服从某些规则并避免某些常见错误。
 
-Motoko允许使用现代的编程习惯，包括针对分布式应用程序的特殊编程。 每个应用程序都包含一个与其他actor通信的Actor，无需使用共享状态，而是使用（异步）消息传递。 Motoko的基于actor的编程程序允许人类可读的消息传递模式，并且它们强制每个网络交互服从某些规则并避免某些常见错误。
+Motoko允许使用现代的编程习惯，包括针对分布式应用程序的特殊编程。 每个应用程序都包含一个与其他actor通信的Actor，无需使用共享状态，而是使用（异步）消息传递。  Motoko的基于actor的编程程序允许人类可读的消息传递模式，并且它们强制每个网络交互服从某些规则并避免某些常见错误。
 
 为了执行，Motoko静态地编译为[WebAssembly](https://sdk.dfinity.org/docs/language-guide/about-this-guide.html#wasm)，这是一种可移植的二进制格式，可以在现代计算机硬件上清晰地运行，因此可以在Internet和[Internet Computer](https://sdk.dfinity.org/docs/developers-guide/concepts/what-is-ic.html#ic-overview)上广泛执行。
 

@@ -1,5 +1,7 @@
 # 修改默认程序
 
+
+
 现在src目录有三个独立的目录，每个都包含main.mo模板文件。本章节中，你需要用不同的actor替换每个main.mo文件。
 
 修改源码步骤如下
@@ -48,9 +50,11 @@ type ToDo = {
 };
 ```
 
-1. 保存并关闭main.mo文件
-2. 打开src/rock\_paper\_scissors/main.mo文件并删除已有内容
-3. 复制粘贴下面的代码
+    3. 保存并关闭main.mo文件
+
+    4. 打开src/rock\_paper\_scissors/main.mo文件并删除已有内容
+
+    5. 复制粘贴下面的代码
 
 ```text
 import I "mo:base/Iter";
@@ -101,9 +105,11 @@ actor rock_paper_scissors {
 };
 ```
 
-1. 保存并关闭main.mo文件
-2. 打开src/daemon/main.mo文件并删除已有内容
-3. 复制粘贴下面的代码
+    6. 保存并关闭main.mo文件
+
+    7. 打开src/daemon/main.mo文件并删除已有内容
+
+    8. 复制粘贴下面的代码
 
 ```text
 actor daemon {
@@ -123,5 +129,5 @@ actor daemon {
 }
 ```
 
-1. 保存并关闭main.mo文件
+    9. 保存并关闭main.mo文件
 

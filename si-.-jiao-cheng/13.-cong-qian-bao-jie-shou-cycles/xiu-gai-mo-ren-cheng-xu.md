@@ -1,5 +1,7 @@
 # 修改默认程序
 
+
+
 在本教程中，您将修改模板源代码，以包含用于接受Cycles和检查余额的新功能。
 
 1. 在文本编辑器中打开src/cycles\_hello/main.mo文件，然后删除现有内容。
@@ -46,5 +48,6 @@ shared(msg) actor class HelloCycles (
 * 该程序使用一个actor类，而不是单个actor，以便它可以具有多个actor实例，以接受不同的Cycles数量，直至所有实例的容量。
 * 容量作为参数传递给actor类。
 * msg.caller标识与该调用关联的账户。
-  1. 保存并关闭文件
+
+    3. 保存并关闭文件
 

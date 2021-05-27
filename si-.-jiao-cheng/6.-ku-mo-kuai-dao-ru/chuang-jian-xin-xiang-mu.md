@@ -10,9 +10,11 @@
 dfx new phonebook
 ```
 
-1. 进入项目目录
+    4. 进入项目目录
 
 ```text
 cd phonebook
 ```
+
+
 

@@ -1,5 +1,7 @@
 # 查看默认配置
 
+
+
 在修改代码前，让我们看一下dfx.json中默认的前端配置。
 
 查看dfx.json配置步骤
@@ -40,5 +42,5 @@
 
 这篇教程中，我们会在一个index.jsx文件中添加React JavaScript，无需对dfx.json文件进行修改。
 
-1. 关闭dfx.json文件继续
+    3. 关闭dfx.json文件继续
 

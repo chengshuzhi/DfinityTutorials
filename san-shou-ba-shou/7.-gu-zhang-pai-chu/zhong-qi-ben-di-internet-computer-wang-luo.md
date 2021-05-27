@@ -7,7 +7,7 @@
 
 **`dfx stop`**
 
-1. 运行以下命令，以纯净状态重新启动Internet Computer：
+    3. 运行以下命令，以纯净状态重新启动Internet Computer：
 
 **`dfx start --clean`**
 

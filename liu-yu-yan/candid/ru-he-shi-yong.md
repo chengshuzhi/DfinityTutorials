@@ -28,6 +28,8 @@ dfx工具提供了dfx Canister call的调用命令，以调用特定的已部署
 
 **`(43)`**
 
+
+
 您也可以省略参数并让dfx生成与method（方法）的类型匹配的随机值。 例如：
 
 **`$ dfx canister call counter inc`**
@@ -54,8 +56,9 @@ Candid接口描述语言提供了一种通用语言，用于指定Canister的ser
 http://127.0.0.1:8000/candid?canisterId=<YOUR-CANISTER-IDENTIFIER>
 ```
 
-1. 查看程序中定义的函数调用和类型列表。
-2. 为函数键入适当类型的值或单击\`\`Random随机''生成一个值，然后单击\`\`Call调用''或\`\`query查询''以查看结果。
+    4. 查看程序中定义的函数调用和类型列表。
+
+    5. 为函数键入适当类型的值或单击\`\`Random随机''生成一个值，然后单击\`\`Call调用''或\`\`query查询''以查看结果。
 
 有关从任何Canister的Candid 接口创建Web接口的工具的详细信息，请参阅“ [Candid UI](https://github.com/dfinity/candid/tree/master/tools/ui)”存储库。
 
@@ -109,7 +112,7 @@ service : {
 
 还有一个实验功能可以自动生成Candid的service的描述，请参阅这个'测试案例'作为示例。
 
-有关可帮助您在Rust中创建Candid service或canister的其他信息和库，请参阅\`\`Candid crate''，\`\`Rust CDK示例''和'Rust教程'的文档。
+有关可帮助您在Rust中创建Candid service或canister的其他信息和库，请参阅\`\`Candid  crate''，\`\`Rust CDK示例''和'Rust教程'的文档。
 
 **与用JavaScript编写的service的交互**
 

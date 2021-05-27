@@ -11,7 +11,7 @@
 dfx canister create --all
 ```
 
-这个命令会为dfx.json配置文件中配置的canister输出网络绑定的canister识别码
+ 这个命令会为dfx.json配置文件中配置的canister输出网络绑定的canister识别码
 
 ```text
 "connectd" canister created with canister id: "75hes-oqbaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-q"

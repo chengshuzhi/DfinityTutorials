@@ -34,3 +34,5 @@ http://127.0.0.1:8000/candid?canisterId=<YOUR-CANISTER-IDENTIFIER>
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
+
+

@@ -1,5 +1,7 @@
 # 添加Canister配置文件
 
+
+
 当您用DFINITY Canister SDK创建一个新项目时，dfx new命令自动添加一个默认dfx.json配置文件到项目目录。因为他们已经使用Cargo来创建Rust项目，所以您需要手工在项目目录下创建该文件。
 
 添加dfx.json配置文件：
@@ -32,5 +34,6 @@
 * wasm键指定cargo编译命令生成的WebAssembly文件路径
 * build键指定用于编译输出的cargo命令
 * These are the minimum settings required. As you build more complex programs, you might need to include additional configuration details in the Cargo.toml file, the dfx.json file, or both files. 这些是最小配置需要。随着您构建更复杂的程序，您会需要在Cargo.toml, dfx.json中进行其他详细配置
-  1. 保存并关闭文件
+
+    5. 保存并关闭文件
 

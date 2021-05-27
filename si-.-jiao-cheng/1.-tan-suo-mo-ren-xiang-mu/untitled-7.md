@@ -9,7 +9,7 @@
 
 **`dfx canister install --all`**
 
-命令输出
+ 命令输出
 
 ```text
 Installing code for canister explore_hello, with canister_id rwlgt-iiaaa-aaaaa-aaaaa-cai

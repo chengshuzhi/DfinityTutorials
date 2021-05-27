@@ -37,6 +37,8 @@ ignore await Factorial.next();
 await Factorial.next();
 ```
 
+
+
 **现代型系统**
 
 Motoko 对于熟悉 Javascript 和其他流行的语言的人来说是没有障碍的，并且提供了先进的功能，比如可靠性，通用性，可变性和模型匹配。
@@ -61,6 +63,8 @@ var sum = 0;
 iterTree<Nat>(tree, func (leaf) { sum += leaf });
 sum
 ```
+
+
 
 **自动生成** **IDL** **文件**
 
@@ -151,4 +155,6 @@ Motoko 提供了许多其他提高开发人员生产力的功能，包括子类�
 Motoko 并非（也不打算成为）实现容器的唯一语言。 如果它不适合您的需求，我们也正在努力为 SDK 添加 Rust 支持。 我们的目标是使任何语言（使用针对 WebAssembly 的编译器）都能够生成可在 Internet 计算机上运行的容器，并通过与语言无关的 Candid 接口与其他（可能是外国的）容器进行互操作。
 
 其量身定制的设计意味着 Motoko 至少在可预见的将来，应该成为在 Internet 计算机上进行编码的最简单，最安全的语言。
+
+
 

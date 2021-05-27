@@ -13,8 +13,9 @@
 
 如果Canister重新安装在远程网络上，则应包括--network命令行选项，以在该网络上执行任务。
 
-1. 验证您具有要重新部署的所有Canister的标识符。
-2. 运行以下命令以重新部署所有Canister
+    3. 验证您具有要重新部署的所有Canister的标识符。
+
+    4. 运行以下命令以重新部署所有Canister
 
 **`dfx canister install --all --mode reinstall`**
 

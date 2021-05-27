@@ -1,5 +1,7 @@
 # 10.调用其它canister
 
+
+
 ICP一个重要的特性是能够在不同Canister间构建，部署并调用共享函数。调用不同Canister的能力-有时被称为canister间调用-允许你在多个应用中复用并共享功能。
 
 例如，你想要创建一个应用来实现专有网络，组织社区活动或举办筹资活动。每个应用可能都需要社交组建，能够让用户基于一些标准或共同的兴趣识别社交关系，比如作为朋友和家人或当前和之前的同事。
@@ -13,4 +15,6 @@ LinkedUp示例程序使用以下Canister实现：
 * linkedup canister创建并存储基本的用户信息，包含工作经历和教育背景
 * connectd canister创建并存储用户的关系网
 * linkedup\_assets canister存储前端资源-包含JavaScript，HTML和CSS文件-定义了用户页面
+
+
 

@@ -1,5 +1,7 @@
 # 修改前端文件
 
+
+
 现在可以为程序创建新的前端了
 
 1. 编辑器中打开webpack配置文件（webpack.config.js）
@@ -14,7 +16,7 @@ entry: {
 },
 ```
 
-1. 定位plugins项上面的module键的注释例子，然后将下面的几行取消注释
+    3. 定位plugins项上面的module键的注释例子，然后将下面的几行取消注释
 
 ```text
 module: {
@@ -27,9 +29,11 @@ module: {
 
 这些配置允许你的程序使用ts-loader编译器并导入css文件
 
-1. 保存webpack.config.js文件并退出
-2. 项目根目录下创建新的tsconfig.json文件
-3. 打开tsconfig.json文件，然后复制粘贴下面的内容到文件
+    4. 保存webpack.config.js文件并退出
+
+    5. 项目根目录下创建新的tsconfig.json文件
+
+    6. 打开tsconfig.json文件，然后复制粘贴下面的内容到文件
 
 ```text
 {
@@ -43,5 +47,5 @@ module: {
 }
 ```
 
-1. 保存修改并关闭tsconfig.json文件继续
+    7. 保存修改并关闭tsconfig.json文件继续
 

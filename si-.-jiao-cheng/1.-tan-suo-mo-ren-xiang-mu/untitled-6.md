@@ -18,12 +18,13 @@ explore_hello.greet(window.prompt("Enter your name:")).then(greeting => {
 
 示例文件倒入创建的Canister并在一个提示框中调用greet函数。
 
-1. 关闭index.js文件继续
-2. 查看自动创建的前端资源文件
+    3. 关闭index.js文件继续
+
+    4. 查看自动创建的前端资源文件
 
 **`ls -l .dfx/local/canisters/explore_hello_assets/`**
 
-命令输出示例
+ 命令输出示例
 
 ```text
 drwxr-xr-x  9 pubs  staff     288 Apr  6 14:25 assets
@@ -38,7 +39,7 @@ drwxr-xr-x  9 pubs  staff     288 Apr  6 14:25 assets
 
 这些文件是使用node模块和index.js文件由 dfx build命令自动生成的
 
-1. 打开浏览器，进入在dfx.json中配置的网址127.0.0.1:8000
+    5. 打开浏览器，进入在dfx.json中配置的网址127.0.0.1:8000
 
 按下面到格式添加canisterId 参数和explore\_hello\_assets 容器识别码到URL
 
@@ -48,11 +49,11 @@ drwxr-xr-x  9 pubs  staff     288 Apr  6 14:25 assets
 
 **`http://127.0.0.1:8000/?canisterId=rrkah-fqaaa-aaaaa-aaaaq-cai`**
 
-1. 查看HTML页面
+    6. 查看HTML页面
 
 ![](../../.gitbook/assets/image%20%289%29.png)
 
-1. 点击Click Me来调用greeting函数
+    7. 点击Click Me来调用greeting函数
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 

@@ -1,5 +1,7 @@
 # 修改默认程序
 
+
+
 对于本教程，您将使用具有分配和检索角色功能的程序替换模板源代码文件。
 
 修改默认程序：
@@ -111,5 +113,6 @@ shared({ caller = initializer }) actor class() {
 * Assign\_roles函数使消息调用者可以将角色分配给与身份关联的主体。
 * 使用callerPrincipal函数，您可以返回与身份关联的主体。
 * 使用my\_role函数可以返回与身份关联的角色。
-  1. 保存并关闭main.mo文件
+
+    3. 保存并关闭main.mo文件
 

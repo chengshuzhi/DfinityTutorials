@@ -1,5 +1,7 @@
 # 修改默认程序
 
+
+
 到目前为止，只修改了项目主程序的名称。接下来需要修改src/my\_counter/increment\_counter.mo文件来定义一个名为Counter的actor并实现increment ，get 和set函数。
 
 源码修改步骤
@@ -36,7 +38,7 @@ actor Counter {
 * currentValue定义也指定其类型为自然数（Nat）
 * 程序包含2个公共update方法-increment和set函数-以及一个query方法，在这里是get函数
 
-需要更多关于stable和flexible变量的信息，请 在[_Motoko Programming Language Guide_](http://language-guide:motoko.html)查看[Stable variables and upgrade methods](http://language-guide:upgrades.html)
+需要更多关于stable和flexible变量的信息，请 在[_Motoko Programming Language Guide_](http://language-guide:motoko.html)查看[Stable variables and upgrade methods](http://language-guide:upgrades.html) 
 
-1. 保存并关闭文件
+    4. 保存并关闭文件
 
