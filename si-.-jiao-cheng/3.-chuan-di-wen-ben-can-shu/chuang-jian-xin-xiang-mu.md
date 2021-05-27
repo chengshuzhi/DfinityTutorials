@@ -8,7 +8,7 @@
 
 **`dfx new location_hello`**
 
-    4. 进入项目目录
+1. 进入项目目录
 
 **`cd location_hello`**
 

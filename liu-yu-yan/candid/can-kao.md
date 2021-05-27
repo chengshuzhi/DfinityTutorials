@@ -1,7 +1,5 @@
 # 参考
 
-
-
 本节提供有关Candid支持的类型的详细参考信息，Candid规范，和关于Candid Rust crate文档的链接。
 
 * [Supported types](https://sdk.dfinity.org/docs/candid-guide/candid-types.html) / 支持的类型

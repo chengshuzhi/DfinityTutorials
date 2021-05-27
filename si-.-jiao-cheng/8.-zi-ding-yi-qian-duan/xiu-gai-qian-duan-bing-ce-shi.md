@@ -40,28 +40,27 @@ class MyHello extends React.Component {
  }
 }
 render(<MyHello />, document.getElementById('app'));
-
 ```
 
-  2. 运行下面的命令重新构建项目
+1. 运行下面的命令重新构建项目
 
 ```text
 dfx build
 ```
 
-   3. 运行下面的命令部署项目
+1. 运行下面的命令部署项目
 
 ```text
 dfx canister install --all --mode reinstall
 ```
 
-    4. 刷新浏览器显示custom\_greeting\_assets canister的页面查看结果
+1. 刷新浏览器显示custom\_greeting\_assets canister的页面查看结果
 
 例如
 
 ![](https://uploader.shimo.im/f/EKXeeWoNCjRheNfF.png!thumbnail)
 
-    5. 输入新的消息查看结果
+1. 输入新的消息查看结果
 
 ![](https://uploader.shimo.im/f/BNCmkB32DjAqUjEu.png!thumbnail)
 

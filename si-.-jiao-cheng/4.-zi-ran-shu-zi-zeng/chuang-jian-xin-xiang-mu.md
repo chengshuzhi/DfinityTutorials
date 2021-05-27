@@ -10,11 +10,9 @@
 dfx new my_counter
 ```
 
-    4. 进入项目目录
+1. 进入项目目录
 
 ```text
 cd my_counter
 ```
-
-
 

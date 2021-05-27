@@ -11,15 +11,19 @@
 
 **`cargo --version`**
 
-    3.更改到您的Internet Computer或Rust示例项目的目录。
+```text
+3.更改到您的Internet Computer或Rust示例项目的目录。
 
-    4.运行类似以下命令来创建新项目：
+4.运行类似以下命令来创建新项目：
+```
 
 **`cargo new my_rust_program`**
 
 该命令创建一个新的my\_rust\_program目录，包含了默认的Cargo.toml文件和带有默认main.rs文件的src目录。
 
-    5.运行下列命令进入到项目目录：
+```text
+5.运行下列命令进入到项目目录：
+```
 
 **`cd my_rust_program`**
 

@@ -15,13 +15,13 @@
 
 如果要在远程网络上升级Canister，则应包括--network命令行选项，以在该网络上执行任务。
 
-    3. 确认您具有要升级的所有Canister的标识符。
+1. 确认您具有要升级的所有Canister的标识符。
 
 请注意，您的程序必须使用变量声明中的stable关键字来标识要为其维护状态的变量。
 
 有关声明稳定变量的更多信息，请参见《 Motoko编程语言指南》。
 
-    4. 运行以下命令升级所有Canister：
+1. 运行以下命令升级所有Canister：
 
 **`dfx canister install --all --mode upgrade`**
 

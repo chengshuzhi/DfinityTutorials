@@ -16,7 +16,7 @@ Creating identity: "ic_admin".
 Created identity: "ic_admin".
 ```
 
-    3. 调用my\_role函数以查看您的新用户身份尚未分配的任何角色。
+1. 调用my\_role函数以查看您的新用户身份尚未分配的任何角色。
 
 ```text
 dfx --identity ic_admin canister call access_hello my_role
@@ -30,7 +30,7 @@ The wallet canister on the "local" network for user "ic_admin" is "ryjl3-tyaaa-a
 (null)
 ```
 
-    4. 通过运行以下命令，将当前活动用户切换为使用新的ic\_admin用户身份，并显示与ic\_admin用户关联的账户：
+1. 通过运行以下命令，将当前活动用户切换为使用新的ic\_admin用户身份，并显示与ic\_admin用户关联的账户：
 
 ```text
 dfx identity use ic_admin && dfx identity get-principal
@@ -43,7 +43,7 @@ Using identity: "ic_admin".
 c5wa6-3irl7-tuxuo-4vtyw-xsnhw-rv2a6-vcmdz-bzkca-vejmd-327zo-wae
 ```
 
-    5. 通过运行以下命令，检查用于调用access\_hello Canister的账户：
+1. 通过运行以下命令，检查用于调用access\_hello Canister的账户：
 
 ```text
 dfx canister call access_hello callerPrincipal

@@ -1,6 +1,6 @@
 # 修改默认程序
 
-在[探索默认项目](../1.-tan-suo-mo-ren-xiang-mu/)章节，已经介绍了创建新项目会创建一个默认的src目录，并包含一个main.mo程序模板文件。在本章节中，可以修改模板代码创建一个简单的使用actor的"Hello, World!"程序
+在[探索默认项目](https://github.com/chengshuzhi/DfinityTutorials/tree/67efaf95e3f292cfe2fc958ffec63d10ccf7a6f9/si-.-jiao-cheng/1.-tan-suo-mo-ren-xiang-mu)章节，已经介绍了创建新项目会创建一个默认的src目录，并包含一个main.mo程序模板文件。在本章节中，可以修改模板代码创建一个简单的使用actor的"Hello, World!"程序
 
 源码修改步骤
 
@@ -8,9 +8,9 @@
 
 **`cd src/actor_hello`**
 
-    2. 编辑器中打开main.mo文件
+1. 编辑器中打开main.mo文件
 
-         接下来会编写一个可以输出"Hello, World!"的示例程序。为了编译后的程序在ICP上运行，程序必须包含一个有public函数的actor对象。
+   接下来会编写一个可以输出"Hello, World!"的示例程序。为了编译后的程序在ICP上运行，程序必须包含一个有public函数的actor对象。
 
 复制粘贴以下示例代码到main.mo文件
 

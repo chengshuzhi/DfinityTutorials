@@ -1,7 +1,5 @@
 # 确保nodejs在项目中可用
 
-
-
 由于项目依赖于webpack为默认的前端提供框架，因此您必须在开发环境中安装node.js并在项目目录中对其进行访问。
 
 * 如果要在不使用默认Webpack配置和Canister别名的情况下开发项目，则可以从dfx.json文件中删除资源Canister，也可以使用特定的Canister名称来构建项目。

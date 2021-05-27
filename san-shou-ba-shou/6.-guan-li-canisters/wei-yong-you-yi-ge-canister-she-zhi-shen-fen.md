@@ -10,23 +10,23 @@
 
 **`dfx new pubs`**
 
-    2. 运行以下命令进入项目目录：
+1. 运行以下命令进入项目目录：
 
 **`cd pubs`**
 
-    3. 运行以下命令在后台启用Internet Computer网络：
+1. 运行以下命令在后台启用Internet Computer网络：
 
 **`dfx start --background`**
 
-    4. 运行以下命令创建一个新的身份
+1. 运行以下命令创建一个新的身份
 
 **`dfx identity new registered_owner`**
 
-    5. 运行以下命令，将当前用户设置为registered\_owner
+1. 运行以下命令，将当前用户设置为registered\_owner
 
 **`dfx identity use registered_owner`**
 
-    6. 运行以下命令为项目注册，构建和部署Canister：
+1. 运行以下命令为项目注册，构建和部署Canister：
 
 **`dfx canister create --all`**
 
@@ -36,7 +36,7 @@
 
 这些命令使用registered\_owner身份运行，从而使该用户成为已部署Canister的所有者。
 
-    7. 运行以下命令，通过调用greet函数以验证部署是否成功：
+1. 运行以下命令，通过调用greet函数以验证部署是否成功：
 
 **`dfx canister call pubs greet '("Sam")'`**
 

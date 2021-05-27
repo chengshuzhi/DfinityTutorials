@@ -1,7 +1,5 @@
 # 创建一个最小接口描述文件
 
-
-
 在标准开发工作流程中，运行dfx build命令会在Canister的输出目录中创建多个文件，包括一个或多个Candid接口描述（.did）文件，这些文件处理与程序功能关联的数据类型的类型匹配。
 
 有关用于不同数据类型的语法的详细信息，请参见Candid[规范](https://github.com/dfinity/candid/tree/master/spec)和[指导](https://sdk.dfinity.org/docs/candid-guide/candid-intro.html)。
@@ -20,5 +18,5 @@ service : {
 }
 ```
 
-    4. 保存并关闭文件
+1. 保存并关闭文件
 

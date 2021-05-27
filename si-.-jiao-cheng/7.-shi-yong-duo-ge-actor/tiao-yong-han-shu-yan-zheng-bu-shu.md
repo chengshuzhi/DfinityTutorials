@@ -1,7 +1,5 @@
 # 调用函数验证部署
 
-
-
 现在你已经在本地网络部署了三个canister并且可以通过dfx canister call命令分别测试
 
 测试步骤
@@ -18,7 +16,7 @@ dfx canister call assistant addTodo '("Schedule monthly demos")'
 dfx canister call assistant showTodos
 ```
 
- 命令输出
+命令输出
 
 ```text
 ("
@@ -32,7 +30,7 @@ ___TO-DOs___
 dfx canister call rock_paper_scissors contest
 ```
 
- 命令输出
+命令输出
 
 ```text
 ("Bob won")

@@ -1,7 +1,5 @@
 # 使用本地识别码构建应用
 
-
-
 如果你只需要对这个简单程序做本地测试，那么，就不需要再ICP网络为这个程序的编译输出保留一个单独的Canister识别码。
 
 在本节中，可以无需连接ICP网络来编译程序。dfx build命令可以创建一个本地硬编码的canister识别码。
@@ -26,7 +24,7 @@ Building canisters...
 
 如果程序成功编译，可以
 
-在`.dfx/local/canisters` 和 `.dfx/local/canisters/actor_hello/`  查看输出的
+在`.dfx/local/canisters` 和 `.dfx/local/canisters/actor_hello/` 查看输出的
 
 文件。
 
@@ -36,7 +34,7 @@ Building canisters...
 tree .dfx/local/canisters
 ```
 
- 命令输出
+命令输出
 
 ```text
 .dfx/local/canisters
