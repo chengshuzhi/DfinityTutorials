@@ -11,7 +11,7 @@
   * [2.节点和子网络](er-ji-ben-gai-nian/2.-jie-dian-he-zi-wang-luo.md)
   * [3.分布式数据中心](er-ji-ben-gai-nian/3.-fen-bu-shi-shu-ju-zhong-xin.md)
   * [4.Canister（程序罐）和代码](er-ji-ben-gai-nian/4.canister-cheng-xu-guan-he-dai-ma.md)
-  * [5.Tokens和cycles](er-ji-ben-gai-nian/5.token-ling-pai-dai-bi-he-yun-hang-zhou-qi.md)
+  * [5.Token（令牌？代币？）和运行周期](er-ji-ben-gai-nian/5.token-ling-pai-dai-bi-he-yun-hang-zhou-qi.md)
   * [6 Neuron（神经元）和治理模式](er-ji-ben-gai-nian/6-neuron-shen-jing-yuan-he-zhi-li-mo-shi.md)
 * [三、手把手](san-shou-ba-shou/README.md)
   * [1.安装、升级、删除软件](san-shou-ba-shou/1.-an-zhuang-sheng-ji-shan-chu-ruan-jian/README.md)
