@@ -44,7 +44,7 @@
 
 
    ```text
-   dfx canister call phonebook lookup '("Maya Garcia","Chris Lynn")'copy
+   dfx canister call phonebook lookup '("Maya Garcia","Chris Lynn")'
    ```
 
    由于程序只接受一个值，命令会返回第一个值对应的信息，在这里会返回“Maya Garcia”对应的电话号码

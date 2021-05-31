@@ -7,7 +7,7 @@
 3. 运行下面的命令来创建项目
 
    ```text
-   dfx new multiple_actorscopy
+   dfx new multiple_actors
    ```
 
 4. 进入项目目录

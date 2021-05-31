@@ -10,7 +10,7 @@
 
 
    ```text
-   dfx new explore_hellocopy
+   dfx new explore_hello
    ```
 
    这条命令会创建一个新的 explore\_hello 项目，包含一个默认的项目目录结构，同时会初始化为一个 git 仓库。如果安装了 node.js，还会包含前端代码和相关依赖。  
@@ -20,7 +20,7 @@
 
 
    ```text
-   ls -l explore_hellocopy
+   ls -l explore_hello
    ```
 
    项目目录结构中默认包含至少一个 src 子目录，一个模板 README.md 文件和一个默认的 dfx.json 配置文件。  

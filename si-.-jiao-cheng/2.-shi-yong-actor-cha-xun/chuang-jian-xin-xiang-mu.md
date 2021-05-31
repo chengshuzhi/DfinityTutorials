@@ -4,11 +4,6 @@
 
 1. 打开终端
 2. 进入工作目录
-3. 运行下面的命令来创建项目
-
-**`dfx new actor_hello`**
-
-1. 进入项目目录
-
-**`cd actor_hello`**
+3. 运行下面的命令来创建项目 **`dfx new actor_hello`**
+4. 进入项目目录 **`cd actor_hello`**
 
