@@ -6,9 +6,13 @@
 2. 进入工作目录
 3. 运行下面的命令来创建项目
 
-**`dfx new multiple_actors`**
+   ```text
+   dfx new multiple_actorscopy
+   ```
 
-1. 进入项目目录
+4. 进入项目目录
 
-**`cd multiple_actors`**
+   ```text
+   cd multiple_actors
+   ```
 

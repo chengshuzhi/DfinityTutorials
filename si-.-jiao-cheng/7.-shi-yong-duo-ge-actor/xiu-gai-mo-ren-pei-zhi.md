@@ -4,72 +4,78 @@
 
 dfx.json配置修改步骤
 
-1. 在编辑器中，打开 dfx.json 配置文件，然后修改默认的multiple\_actors canister名称和源码目录为assistant
+1. 在编辑器中，打开 dfx.json 配置文件，然后修改默认的multiple\_actors canister名称和源码目录为assistant  
+   例如，在canisters键：
 
-例如，在canisters键：
-
-```text
-"assistant": {
- "main": "src/assistant/main.mo",
- "type": "motoko"
- },
-```
-
-由于你已经在配置文件中添加了这个canisters的设置，你必须要在大括号后面添加一个逗号来包裹assistant的配置。
-
-1. 删除文件中的multiple\_actors\_assets键
-2. 为rock\_paper\_scissors和daemon程序添加新的canister名称，源码位置和类型。
-
-修改后的配置文件如下
-
-```text
-{
-  "canisters": {
-    "assistant": {
-      "main": "src/assistant/main.mo",
-      "type": "motoko"
+   ```text
+   "assistant": {
+    "main": "src/assistant/main.mo",
+    "type": "motoko"
     },
-    "rock_paper_scissors": {
-      "main": "src/rock_paper_scissors/main.mo",
-      "type": "motoko"
-    },
-    "daemon": {
-      "main": "src/daemon/main.mo",
-      "type": "motoko"
-    }
-  },
-  "defaults": {
-    "build": {
-      "packtool": ""
-    }
-  },
-  "dfx": "0.6.26",
-  "networks": {
-    "local": {
-      "bind": "127.0.0.1:8000",
-      "type": "ephemeral"
-    }
-  },
-  "version": 1
-}
-```
+   ```
 
-1. 保存并关闭配置文件继续
-2. 运行下面的命令修改默认源码文件名称匹配dfx.json文件中的配置
+   由于你已经在配置文件中添加了这个canisters的设置，你必须要在大括号后面添加一个逗号来包裹assistant的配置。
 
-```text
-cp -r src/multiple_actors/ src/assistant/
-```
+2. 删除文件中的multiple\_actors\_assets部分
+3. 为rock\_paper\_scissors和daemon程序添加新的canister名称，源码位置和类型
 
-1. 运行下面的命令复制assistant源码文件目录为rock\_paper\_scissors acotr创建主程序文件
 
-```text
-cp -r src/assistant/ src/rock_paper_scissors/
-```
 
-1. 运行下面的命令复制assistant源码文件目录为daemon创建主程序文件
+   修改后的配置文件如下
 
-```text
-cp -r src/assistant/ src/daemon/
-```
+   ```text
+   {
+     "canisters": {
+       "assistant": {
+         "main": "src/assistant/main.mo",
+         "type": "motoko"
+       },
+       "rock_paper_scissors": {
+         "main": "src/rock_paper_scissors/main.mo",
+         "type": "motoko"
+       },
+       "daemon": {
+         "main": "src/daemon/main.mo",
+         "type": "motoko"
+       }
+     },
+     "defaults": {
+       "build": {
+         "packtool": ""
+       }
+     },
+     "dfx": "0.7.0",
+     "networks": {
+       "local": {
+         "bind": "127.0.0.1:8000",
+         "type": "ephemeral"
+       }
+     },
+     "version": 1
+   }
+   ```
+
+4. 保存并关闭配置文件继续
+5. 运行下面的命令修改默认源码文件名称匹配dfx.json文件中的配置  
+
+
+   ```text
+   cp -r src/multiple_actors/ src/assistant/
+   ```
+
+6. 运行下面的命令复制assistant源码文件目录为rock\_paper\_scissors acotr创建主程序文件  
+
+
+   ```text
+   cp -r src/assistant/ src/rock_paper_scissors/
+   ```
+
+7. 运行下面的命令复制assistant源码文件目录为daemon创建主程序文件  
+
+
+   ```text
+   cp -r src/assistant/ src/daemon/
+   ```
+
+、
 
