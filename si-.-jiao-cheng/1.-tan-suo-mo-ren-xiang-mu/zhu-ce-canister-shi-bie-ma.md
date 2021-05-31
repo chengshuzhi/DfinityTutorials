@@ -6,32 +6,39 @@
 
 在本地网络注册 Canister 识别码步骤：
 
-进入项目根目录
 
-运行下面的命令注册 Canister 识别码
+
+1. 进入项目根目录
+2. 运行下面的命令注册 Canister 识别码：
 
 **`dfx canister create --all`**
 
 命令会显示定义在 dfx.json 配置文件里的 Canster 在本地网络唯一的 Canister 识别码。
 
+
+
 ```text
+Creating a wallet canister on the local network.
+The wallet canister on the "local" network for user "pubs-id" is "rwlgt-iiaaa-aaaaa-aaaaa-cai"
 Creating canister "explore_hello"...
-"explore_hello" canister created with canister id: "rwlgt-iiaaa-aaaaa-aaaaa-cai"
+"explore_hello" canister created with canister id: "rrkah-fqaaa-aaaaa-aaaaq-cai"
 Creating canister "explore_hello_assets"...
-"explore_hello_assets" canister created with canister id: "rrkah-fqaaa-aaaaa-aaaaq-cai"
+"explore_hello_assets" canister created with canister id: "ryjl3-tyaaa-aaaaa-aaaba-cai"
 ```
 
 如果你连接的是本地开发 ICP 网络，这些 Canister 识别码只在本地有效，并存储在项目的.dfx/local/canister\_ids.json 文件。
 
 文件内容示例：
 
+
+
 ```text
 {
   "explore_hello": {
-    "local": "rwlgt-iiaaa-aaaaa-aaaaa-cai"
+    "local": "rrkah-fqaaa-aaaaa-aaaaq-cai"
   },
   "explore_hello_assets": {
-    "local": "rrkah-fqaaa-aaaaa-aaaaq-cai"
+    "local": "ryjl3-tyaaa-aaaaa-aaaba-cai"
   }
 }
 ```

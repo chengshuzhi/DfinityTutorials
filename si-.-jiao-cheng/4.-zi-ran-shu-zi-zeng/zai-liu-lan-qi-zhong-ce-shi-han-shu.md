@@ -23,7 +23,7 @@ Canister接口描述语言-通常指Candid或更通用的说法IDL-提供一个�
 5. 查看程序中定义的函数调用和类型
 6. 在函数后面输入合适的类型值或点击Random生成一个值，然后点击Call或Query查看结果。 注意根据数据类型，Candid接口回现实额外的配置来测试函数。例如，如果函数需要一个数组，则需要额外输入数组的元素数量。 
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 
 
