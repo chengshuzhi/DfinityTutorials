@@ -4,25 +4,29 @@
 
 1. 打开本地命令终端
 2. 修改当前目录到ICP项目目录
-3. 运行下面的命令检查你已经在本地安装了node.js
+3. 运行下面的命令检查你已经在本地安装了node.js  
 
-**`which node`**
 
-**`which npm`**
+   ```text
+   which node
+   which npm
+   ```
 
-如果你没有安装nodejs，你应该在下一步前下载并安装好。要了解更多关于安装node的信息，请查看[Node](https://nodejs.org/en/)网站。
+   如果你没有安装nodejs，你应该在下一步前下载并安装好。要了解更多关于安装node的信息，请查看[Node](https://nodejs.org/en/)网站。
 
-1. 运行下面的命令创建项目
+4. 运行下面的命令创建项目  
 
-```text
-dfx new custom_greeting
-```
 
-dfx new custom\_greeting命令会创建一个新的custom\_greeting项目
+   ```text
+   dfx new custom_greeting
+   ```
 
-1. 运行下面的命令进入项目目录
+   dfx new custom\_greeting命令会创建一个新的custom\_greeting项目
 
-```text
-cd custom_greeting
-```
+5. 运行下面的命令进入项目目录  
+
+
+   ```text
+   cd custom_greeting
+   ```
 

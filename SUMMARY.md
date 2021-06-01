@@ -154,7 +154,7 @@
     * [修改前端文件](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/xiu-gai-qian-duan-wen-jian.md)
     * [启动本地网络](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/qi-dong-ben-di-wang-luo.md)
     * [注册构建并部署应用](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/zhu-ce-gou-jian-bing-bu-shu-ying-yong.md)
-    * [查看前端](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/cha-kan-qian-duan.md)
+    * [查看新前端](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/cha-kan-qian-duan.md)
     * [修改前端并测试](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/xiu-gai-qian-duan-bing-ce-shi.md)
     * [关闭本地网](si-.-jiao-cheng/8.-zi-ding-yi-qian-duan/guan-bi-ben-di-wang.md)
   * [9.添加前端样式](si-.-jiao-cheng/9.-tian-jia-qian-duan-yang-shi/README.md)
