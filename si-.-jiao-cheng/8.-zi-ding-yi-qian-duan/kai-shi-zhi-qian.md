@@ -2,8 +2,6 @@
 
 开始之前，需要检查以下内容：
 
-
-
 * 为前端开发安装了node.js并且可以使用npm install在项目中安装包。需要更多关于安装node和包管理器的信息，请查看[node](https://nodejs.org/en/)网站
 * 已经下载并安装了DFINITY Canister SDK
 * 安装了Motoko 的VSCode 插件

@@ -34,7 +34,7 @@
 
 ![](../../.gitbook/assets/greeting-response.png)
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ###  <a id="_revise_the_front_end_and_test_your_changes"></a>
 
