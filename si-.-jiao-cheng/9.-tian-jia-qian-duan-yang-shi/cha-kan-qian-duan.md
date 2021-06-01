@@ -31,7 +31,7 @@
 
    记住你输入的Lookup名称必须完全匹配你输入的名称
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 
 
