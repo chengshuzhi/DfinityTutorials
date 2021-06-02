@@ -23,7 +23,7 @@
     * [卸载软件](san-shou-ba-shou/1.-an-zhuang-sheng-ji-shan-chu-ruan-jian/untitled-2.md)
   * [2.设计Apps](san-shou-ba-shou/2.-she-ji-apps/README.md)
     * [单或多个Canister架构](san-shou-ba-shou/2.-she-ji-apps/dan-huo-duo-ge-canister-jia-gou.md)
-    * [将Actor从类型和实用程序区分开](san-shou-ba-shou/2.-she-ji-apps/jiang-actor-cong-lei-xing-he-shi-yong-cheng-xu-qu-fen-kai.md)
+    * [将Actors从定义类型的程序和工具类程序分开](san-shou-ba-shou/2.-she-ji-apps/jiang-actor-cong-lei-xing-he-shi-yong-cheng-xu-qu-fen-kai.md)
     * [使用查询调用](san-shou-ba-shou/2.-she-ji-apps/shi-yong-cha-xun-tiao-yong.md)
     * [数据存储与检索](san-shou-ba-shou/2.-she-ji-apps/shu-ju-cun-chu-yu-jian-suo.md)
   * [3.管理项目](san-shou-ba-shou/3.-guan-li-xiang-mu/README.md)
