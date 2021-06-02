@@ -4,9 +4,13 @@
 
 例如：
 
-## **`~/.cache/dfinity/uninstall.sh`**
+```text
+~/.cache/dfinity/uninstall.sh
+```
 
 如果您是想卸载软件后立即重新安装一个干净版本，运行以下命令：
 
-## **`~/.cache/dfinity/uninstall.sh && sh -ci "$(curl -sSL`**  [**`https://sdk.dfinity.org/install.sh)`**](https://sdk.dfinity.org/install.sh%29)**`"`**
+```text
+~/.cache/dfinity/uninstall.sh && sh -ci "$(curl -sSL https://sdk.dfinity.org/install.sh)"
+```
 

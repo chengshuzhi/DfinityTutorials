@@ -4,10 +4,10 @@
 
 从终端命令行下载和安装指定版本：
 
-1. 在本机上打开一个终端
-2. 将需要安装的版本号设置到环境变量 DFX\_VERSION，并放置在 curl 命令前 例如，安装 0.6.26 版本，运行下列命令：
+1. 在本机上打开一个终端。
+2. 将需要安装的版本号设置到环境变量 DFX\_VERSION，并放置在 curl 命令前 例如，安装 0.7.0 版本，运行下列命令。
 
-**`DFX_VERSION=0.6.26 sh -ci`**
-
-**`"$(curl -fsSL https://sdk.dfinity.org/install.sh) "`**
+```text
+DFX_VERSION=0.7.0 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
+```
 
