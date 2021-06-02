@@ -4,22 +4,21 @@
 
 准备配置文件和构建目录：
 
-1. 使用以下命令来创建一个带有canisters键的dfx.json文件
+1.使用以下命令来创建一个带有canisters键的dfx.json文件
 
 ```text
 echo '{"canisters":{"reverse":{"main":"reverse"}}}' > dfx.json
-copy
 ```
 
-1. 使用以下命令创建一个build目录
+2.使用以下命令创建一个build目录
 
 **`mkdir build`**
 
-1. 运行以下命令创建一个reverse目录
+3.运行以下命令创建一个reverse目录
 
 **`mkdir build/reverse`**
 
-1. 运行以下命令拷贝WebAssembly模块到新的build/reverse目录
+4.运行以下命令拷贝WebAssembly模块到新的build/reverse目录
 
 **`cp reverse.wasm build/reverse/`**
 

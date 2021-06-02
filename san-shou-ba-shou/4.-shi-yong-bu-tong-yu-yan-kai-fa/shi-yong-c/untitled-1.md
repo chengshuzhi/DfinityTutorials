@@ -4,11 +4,11 @@
 
 在macOS上编译为WebAssembly：
 
-1. 通过运行以下clang命令来编译程序：
+1.通过运行以下clang命令来编译程序：
 
 **`clang --target=wasm32 -c -O3 reverse.c`**
 
-1. 通过运行以下wasm-ld命令，运行链接器以创建WebAssembly模块：
+2.通过运行以下wasm-ld命令，运行链接器以创建WebAssembly模块：
 
 **`wasm-ld --no-entry --export-dynamic --allow-undefined reverse.o -o reverse.wasm`**
 
