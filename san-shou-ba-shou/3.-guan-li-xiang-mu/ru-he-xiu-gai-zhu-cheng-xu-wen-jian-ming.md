@@ -2,7 +2,7 @@
 
 在使用dfx build命令编译项目的源代码之前，应验证用于程序源代码的位置和文件名。
 
-例如，如果要为阶乘程序构建容器，并且该程序的源代码位于src/math/factorial.mo中，您应确保在配置文件的Canister部分指定了正确的路径。
+例如，如果要为factorial 程序构建容器，并且该程序的源代码位于src/math/factorial.mo中，您应确保在配置文件的Canister部分指定了正确的路径。
 
 例如：
 
