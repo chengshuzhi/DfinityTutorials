@@ -31,6 +31,7 @@
 * candid键指定用于此项目的Candid接口描述文件的名称和位置。
 * wasm键指定cargo编译命令生成的WebAssembly文件路径
 * build键指定用于编译输出的cargo命令
-* These are the minimum settings required. As you build more complex programs, you might need to include additional configuration details in the Cargo.toml file, the dfx.json file, or both files. 这些是最小配置需要。随着您构建更复杂的程序，您会需要在Cargo.toml, dfx.json中进行其他详细配置
-  1. 保存并关闭文件
+* 这些是最小配置需要。随着您构建更复杂的程序，您会需要在Cargo.toml, dfx.json中进行其他详细配置
+
+  5. 保存并关闭文件。
 
