@@ -5,20 +5,23 @@
 本地部署：
 
 1. 检查是否在项目根目录
-2. 通过运行以下命令来注册，构建和部署access\_hello后端程序：
+2. 通过运行以下命令来注册，构建和部署access\_hello后端程序：  
 
-dfx deploy access\_hello
 
-```text
-Creating a wallet canister on the local network.
-The wallet canister on the "local" network for user "default" is "rwlgt-iiaaa-aaaaa-aaaaa-cai"
-Deploying: access_hello
-Creating canisters...
-Creating canister "access_hello"...
-"access_hello" canister created with canister id: "rrkah-fqaaa-aaaaa-aaaaq-cai"
-Building canisters...
-Installing canisters...
-Installing code for canister access_hello, with canister_id rrkah-fqaaa-aaaaa-aaaaq-cai
-Deployed canisters.
-```
+   ```text
+   dfx deploy access_hello
+   ```
+
+   ```text
+   Creating a wallet canister on the local network.
+   The wallet canister on the "local" network for user "default" is "rwlgt-iiaaa-aaaaa-aaaaa-cai"
+   Deploying: access_hello
+   Creating canisters...
+   Creating canister "access_hello"...
+   "access_hello" canister created with canister id: "rrkah-fqaaa-aaaaa-aaaaq-cai"
+   Building canisters...
+   Installing canisters...
+   Installing code for canister access_hello, with canister_id rrkah-fqaaa-aaaaa-aaaaq-cai
+   Deployed canisters.
+   ```
 

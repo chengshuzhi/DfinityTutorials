@@ -5,70 +5,78 @@
 要添加新的authorized用户身份：
 
 1. 进入项目目录
-2. 通过运行以下命令来创建新的authorized用户身份：
+2. 通过运行以下命令来创建新的authorized用户身份：  
 
-```text
-dfx identity new alice_auth
-```
 
-输出类似以下内容：
+   ```text
+   dfx identity new alice_authcopy
+   ```
 
-```text
-Creating identity: "alice_auth".
-Created identity: "alice_auth".
-```
+   输出类似以下内容：
 
-1. 通过运行以下命令，将当前活动的身份切换为新的alice\_auth用户身份：
+   ```text
+   Creating identity: "alice_auth".
+   Created identity: "alice_auth".
+   ```
 
-```text
-dfx identity use alice_auth
-```
+3. 通过运行以下命令，将当前活动的身份切换为新的alice\_auth用户身份：  
 
-1. 通过运行以下命令，将alice\_auth用户的账户存储在环境变量中：
 
-**`ALICE_ID=$(dfx canister --no-wallet call access_hello callerPrincipal | sed 's/[\\(\\)]//g')`**
+   ```text
+   dfx identity use alice_auth
+   ```
 
-您可以通过运行以下命令来验证存储的账户：
+4. 通过运行以下命令，将alice\_auth用户的账户存储在环境变量中：  
 
-```text
-echo $ALICE_ID
-```
 
-输出类似以下内容：
+   ```text
+   ALICE_ID=$(dfx canister --no-wallet call access_hello callerPrincipal | sed 's/[\\(\\)]//g')copy
+   ```
 
-```text
-principal "b5quc-npdph-l6qp4-kur4u-oxljq-7uddl-vfdo6-x2uo5-6y4a6-4pt6v-7qe"
-```
+   您可以通过运行以下命令来验证存储的账户：
 
-1. 通过运行以下命令，使用ic\_admin身份将授权角色分配给alice\_auth：
+   ```text
+   echo $ALICE_ID
+   ```
 
-```text
-dfx --identity ic_admin canister --no-wallet call access_hello assign_role "($ALICE_ID, opt variant{authorized})"
-```
+   输出类似以下内容：
 
-1. 调用my\_role函数以验证角色分配。
+   ```text
+   principal "b5quc-npdph-l6qp4-kur4u-oxljq-7uddl-vfdo6-x2uo5-6y4a6-4pt6v-7qe"
+   ```
 
-```text
-dfx --identity alice_auth canister --no-wallet call access_hello my_role
-```
+5. 通过运行以下命令，使用ic\_admin身份将授权角色分配给alice\_auth：  
 
-输出类似以下内容：
 
-```text
-(opt variant { authorized })
-```
+   ```text
+   dfx --identity ic_admin canister --no-wallet call access_hello assign_role "($ALICE_ID, opt variant{authorized})"
+   ```
 
-1. 通过运行以下命令，使用刚刚分配了authorized角色的alice\_auth用户身份调用greet函数：
+6. 调用my\_role函数以验证角色分配。  
 
-```text
-dfx canister --no-wallet call access_hello greet "Alice"
-```
 
-输出类似以下内容：
+   ```text
+   dfx --identity alice_auth canister --no-wallet call access_hello my_role
+   ```
 
-```text
-(
-  "Welcome, Alice. You have an authorized account. Would you like to play a game?",
-)
-```
+   输出类似以下内容：
+
+   ```text
+   (opt variant { authorized })
+   ```
+
+7. 通过运行以下命令，使用刚刚分配了authorized角色的alice\_auth用户身份调用greet函数：  
+
+
+   ```text
+   dfx canister --no-wallet call access_hello greet "Alice"
+   ```
+
+   输出类似以下内容：
+
+   ```text
+   (
+     "Welcome, Alice. You have an authorized account. Would you like to play a game?",
+   )
+   ```
 
