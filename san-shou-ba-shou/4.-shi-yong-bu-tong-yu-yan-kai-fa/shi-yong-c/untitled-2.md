@@ -23,7 +23,7 @@
 
 **`dfx canister install --all`**
 
-4.通过运行以下命令在程序中调用go函数：
+5.通过运行以下命令在程序中调用go函数：
 
 ```text
 dfx canister call reverse go reward
