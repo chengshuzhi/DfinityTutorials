@@ -9,5 +9,3 @@
 * 如果您使用默认的Webpack配置并且运行dfx build失败，则应尝试在项目目录中运行npm install，然后重新运行dfx build。
 * 如果在项目目录中运行npm install不能解决问题，则应检查webpack.config.js文件的配置是否存在语法错误。
 
-
-
