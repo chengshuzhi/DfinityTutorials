@@ -122,7 +122,7 @@
     * [注册构建并部署应用](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/zhu-ce-gou-jian-bing-bu-shu-ying-yong.md)
     * [在Canister中验证计算函数](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/zai-canister-zhong-yan-zheng-ji-suan-han-shu.md)
     * [在浏览器中测试函数](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/zai-liu-lan-qi-zhong-ce-shi-han-shu.md)
-    * [关闭本地网](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/guan-bi-ben-di-wang.md)
   * [6.库模块导入](si-.-jiao-cheng/6.-ku-mo-kuai-dao-ru/README.md)
     * [开始之前](si-.-jiao-cheng/6.-ku-mo-kuai-dao-ru/kai-shi-zhi-qian.md)
     * [创建新项目](si-.-jiao-cheng/6.-ku-mo-kuai-dao-ru/chuang-jian-xin-xiang-mu.md)
