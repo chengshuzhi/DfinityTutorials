@@ -6,15 +6,17 @@
 
 首次在Internet Computer网络上进行部署：
 
-1. 打开一个终端并进入项目目录
-2. 如有必要，启动Internet Computer网络
+1.打开一个终端并进入项目目录。
 
-多数情况下，仅当您在本机运行Internet Computer网络，才需要执行该步骤
+2.如有必要，启动Internet Computer网络。
+
+多数情况下，仅当您在本机运行Internet Computer网络，才需要执行该步骤。
 
 如果Canister安装在远程网络上，则应包括--network命令行选项，以在该网络上执行任务。
 
-1. 验证您具有要部署的所有Canister的标识符。
-2. 运行以下命令部署所有Canister
+3.验证您具有要部署的所有Canister的标识符。
+
+4.运行以下命令部署所有Canister。
 
 **`dfx canister install --all`**
 

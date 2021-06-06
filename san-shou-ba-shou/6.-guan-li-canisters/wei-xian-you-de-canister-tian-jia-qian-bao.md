@@ -4,13 +4,17 @@
 
 为现有Canister添加钱包：
 
-1. 打开一个终端并进入项目目录
-2. 如有必要，运行以下命令来停止Internet Computer网络
+1.打开一个终端并进入项目目录。
+
+2.如有必要，运行以下命令来停止Internet Computer网络。
 
 **`dfx stop`**
 
-1. 删除.dfx目录
-   1. 使用以下命令启动Internet Computer网络
+3.删除.dfx目录。
+
+4.使用以下命令启动Internet Computer网络。
 
 **`dfx start --clean`**
+
+###  <a id="reinstall-canister"></a>
 
