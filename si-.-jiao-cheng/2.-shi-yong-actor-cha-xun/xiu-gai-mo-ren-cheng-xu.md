@@ -4,33 +4,29 @@
 
 源码修改步骤
 
-1. 进入项目目录 **`cd src/actor_hello`**
-2. 编辑器中打开main.mo文件
+1. 进入项目目录
 
-   接下来会编写一个可以输出"Hello, World!"的示例程序。为了编译后的程序在ICP上运行，您的程序必须包含一个具有公共函数的 actor 对象。
+**`cd src/actor_hello`**
 
-3. 复制粘贴以下示例代码到main.mo文件  
+1. 编辑器中打开main.mo文件
 
+   接下来会编写一个可以输出"Hello, World!"的示例程序。为了编译后的程序在ICP上运行，程序必须包含一个有public函数的actor对象。
 
-   ```text
-   import Debug "mo:base/Debug";
-   actor HelloActor {
-      public query func hello() : async () {
-         Debug.print ("Hello, World from DFINITY \n");
-      }
-   };
-   ```
+复制粘贴以下示例代码到main.mo文件
 
-   代码解析
+```text
+import Debug "mo:base/Debug";
+actor HelloActor {
+ public query func hello() : async () {
+ Debug.print ("Hello, World from DFINITY \n");
+ }
+};
+```
 
-   * 程序导入Debug模块来提供print功能
-   * 程序使用public query func来定义一个查询方法，在这个方法中，actor\_hello程序不会对canister状态进行修改或执行更新数据的操作。
+代码解析
 
-   要获取有关查询调用的信息，请查看[Canisters include both program and state](../../er-ji-ben-gai-nian/4.canister-cheng-xu-guan-he-dai-ma.md)的[query calls](../../er-ji-ben-gai-nian/4.canister-cheng-xu-guan-he-dai-ma.md)章节
+* 程序导入Debug模块来提供print功能
+* 程序使用public query func来定义一个查询方法，在这个方法中，actor\_hello程序不会对canister状态进行修改或执行更新数据的操作。
 
-4. 保存并关闭main.mo文件。
-
-
-
-
+要获取有关查询调用的信息，请查看[Canisters include both program and state](../../er-ji-ben-gai-nian/4.canister-cheng-xu-guan-he-dai-ma.md)的[query calls](../../er-ji-ben-gai-nian/4.canister-cheng-xu-guan-he-dai-ma.md)章节
 

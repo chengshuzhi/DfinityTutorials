@@ -5,6 +5,11 @@
 1. 打开终端
 2. 进入工作目录
 3. 验证你已经安装了nodejs
-4. 运行下面的命令来创建项目 **`dfx new contacts`**
-5. 进入项目目录 **`cd contacts`**
+4. 运行下面的命令来创建项目
+
+**`dfx new contacts`**
+
+1. 进入项目目录
+
+**`cd contacts`**
 

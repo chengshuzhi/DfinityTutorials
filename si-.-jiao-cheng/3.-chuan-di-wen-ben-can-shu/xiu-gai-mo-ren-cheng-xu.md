@@ -5,18 +5,17 @@
 源码修改步骤
 
 1. 编辑器中打开src/location\_hello/main.mo 源码文件
-2. 修改默认源码，用有city参数的location函数替换greet函数  
+2. 修改默认源码，用有city参数的location函数替换greet函数
 
+例如
 
-   例如
+```text
+actor {
+ public func location(city : Text) : async Text {
+ return "Hello, " # city # "!";
+ };
+};
+```
 
-   ```text
-   actor {
-     public func location(city : Text) : async Text {
-       return "Hello, " # city # "!";
-     };
-   };
-   ```
-
-3. 保存并关闭文件
+1. 保存并关闭文件
 

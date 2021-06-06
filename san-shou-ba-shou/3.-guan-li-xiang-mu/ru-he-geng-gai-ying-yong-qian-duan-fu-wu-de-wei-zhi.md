@@ -11,5 +11,3 @@
  "serve_root": "src/hello/public/"
 ```
 
-\`\`
-

@@ -4,42 +4,33 @@
 
 要查看您当前的身份和账户：
 
-1. 通过运行以下命令来验证当前活动身份：  
+1. 通过运行以下命令来验证当前活动身份：
 
+dfx identity whoami
 
-   ```text
-   dfx identity whoami
-   ```
+该命令显示的输出类似于以下内容：
 
-   输出类似以下内容：
+```text
+default
+```
 
-   ```text
-   default
-   ```
+1. 通过运行以下命令，检查账户以获取默认用户身份：
 
-2. 通过运行以下命令，检查账户以获取默认用户身份：  
+```text
+dfx identity get-principal
+```
 
+输出类似以下内容：
 
-   ```text
-   dfx identity get-principal
-   ```
+**`zen7w-sjxmx-jcslx-ey4hf-rfxdq-l4soz-7ie3o-hti3o-nyoma-nrkwa-cqe`**
 
-   输出类似以下内容：
+1. 通过运行以下命令来检查与默认用户关联的角色：
 
-   ```text
-   zen7w-sjxmx-jcslx-ey4hf-rfxdq-l4soz-7ie3o-hti3o-nyoma-nrkwa-cqe
-   ```
+```text
+dfx canister call access_hello my_role
+```
 
-3. 通过运行以下命令来检查与默认用户关联的角色：  
+输出类似以下内容：
 
-
-   ```text
-   dfx canister call access_hello my_role
-   ```
-
-   输出类似以下内容：
-
-   ```text
-   (opt variant { owner })
-   ```
+**`(opt variant { owner })`**
 

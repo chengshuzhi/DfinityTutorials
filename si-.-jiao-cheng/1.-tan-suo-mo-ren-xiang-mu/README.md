@@ -4,5 +4,5 @@
 
 下面的图片描述了在本地运行 ICP 进行开发的工作流程。
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 

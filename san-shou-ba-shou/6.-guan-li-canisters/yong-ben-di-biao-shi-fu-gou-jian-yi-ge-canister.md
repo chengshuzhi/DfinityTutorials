@@ -6,14 +6,15 @@
 
 生成本地定义的标识符：
 
-1. 创建一个满足需求的具有配置设置和程序逻辑的项目
-2. 如有必要，启动Internet Computer网络
+1.创建一个满足需求的具有配置设置和程序逻辑的项目
 
-多数情况下，仅当您在本机运行Internet Computer网络，才需要执行该步骤
+2.如有必要，启动Internet Computer网络
+
+多数情况下，仅当您在本机运行Internet Computer网络，才需要执行该步骤。
 
 如果要编译Canister以在远程网络上运行，则应包括--network命令行选项，以在该网络上执行任务。
 
-1. 通过运行以下命令，为dfx.json中定义的Canister生成硬编码的本地标识符：
+3.通过运行以下命令，为dfx.json中定义的Canister生成硬编码的本地标识符：
 
 **`dfx build --check`**
 

@@ -4,17 +4,15 @@
 
 1. 打开终端
 2. 进入工作目录
-3. 运行下面的命令来创建项目  
+3. 运行下面的命令来创建项目
 
+```text
+dfx new phonebook
+```
 
-   ```text
-   dfx new phonebook
-   ```
+1. 进入项目目录
 
-4. 进入项目目录  
-
-
-   ```text
-   cd phonebook
-   ```
+```text
+cd phonebook
+```
 
