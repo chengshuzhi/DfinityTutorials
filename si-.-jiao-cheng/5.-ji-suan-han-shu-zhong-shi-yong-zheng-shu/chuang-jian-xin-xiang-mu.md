@@ -6,13 +6,13 @@
 2. 进入工作目录
 3. 运行下面的命令来创建项目
 
-```text
-dfx new calc
-```
+   ```text
+   dfx new calc
+   ```
 
-1. 进入项目目录
+4. 切换到项目终端
 
-```text
-cd calc
-```
+   ```text
+   cd calc
+   ```
 
