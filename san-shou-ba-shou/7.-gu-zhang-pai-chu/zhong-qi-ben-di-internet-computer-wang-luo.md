@@ -2,12 +2,13 @@
 
 在某些情况下，由于复制状态错误，在本地启动Internet Computer网络失败。如果在运行dfx start时遇到问题：
 
-1. 在显示网络操作的终端中，按Control-C中断本地网络进程。
-2. 运行以下命令停止本地Internet Computer网络：
+1.在显示网络操作的终端中，按Control-C中断本地网络进程。
+
+2.运行以下命令停止本地Internet Computer网络：
 
 **`dfx stop`**
 
-1. 运行以下命令，以纯净状态重新启动Internet Computer：
+3.运行以下命令，以纯净状态重新启动Internet Computer：
 
 **`dfx start --clean`**
 

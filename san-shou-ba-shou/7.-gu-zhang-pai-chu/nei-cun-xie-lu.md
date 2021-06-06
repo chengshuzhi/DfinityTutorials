@@ -9,5 +9,7 @@
 
 或者，您可以删除.cache/dfinity目录，然后重新安装最新的dfx二进制文件。例如：
 
-**`rm -rf ~/.cache/dfinity && sh -ci "$(curl -sSL`** [**`https://sdk.dfinity.org/install.sh)`**](https://sdk.dfinity.org/install.sh%29)**`"`**
+```text
+rm -rf ~/.cache/dfinity && sh -ci "$(curl -sSL https://sdk.dfinity.org/install.sh)"
+```
 
