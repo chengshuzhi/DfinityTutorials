@@ -102,7 +102,7 @@
     * [传递文本参数](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/chuan-di-wen-ben-can-shu.md)
     * [修改程序源码](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/xiu-gai-cheng-xu-yuan-ma.md)
     * [在浏览器中测试函数](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/zai-liu-lan-qi-zhong-ce-shi-han-shu.md)
-    * [关闭本地网](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/guan-bi-ben-di-wang.md)
   * [4.自然数自增](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/README.md)
     * [开始之前](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/kai-shi-zhi-qian.md)
     * [创建新项目](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/chuang-jian-xin-xiang-mu.md)
