@@ -91,7 +91,7 @@
     * [使用本地识别码构建应用](si-.-jiao-cheng/2.-shi-yong-actor-cha-xun/shi-yong-ben-di-shi-bie-ma-gou-jian-ying-yong.md)
     * [部署项目](si-.-jiao-cheng/2.-shi-yong-actor-cha-xun/bu-shu-xiang-mu.md)
     * [查询Canister](si-.-jiao-cheng/2.-shi-yong-actor-cha-xun/cha-xun-canister.md)
-    * [关闭本地网](si-.-jiao-cheng/2.-shi-yong-actor-cha-xun/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/2.-shi-yong-actor-cha-xun/guan-bi-ben-di-wang.md)
   * [3.传递文本参数](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/README.md)
     * [开始之前](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/kai-shi-zhi-qian.md)
     * [创建新项目](si-.-jiao-cheng/3.-chuan-di-wen-ben-can-shu/chuang-jian-xin-xiang-mu.md)
