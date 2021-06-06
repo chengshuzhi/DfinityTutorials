@@ -5,30 +5,30 @@
 构建步骤：
 
 1. 在命令行中进入 explore\_hello 项目目录。
-2. 运行下面的命令
+2. 运行下面的命令  
+   **`dfx build`**
 
-**`dfx build`**
+   输出信息如下
 
-输出信息如下
+   ```text
+   Building canisters...
+   Building frontend...
+   ```
 
-```text
-Building canisters...
-Building frontend...
-```
+   **`dfx build`** 命令会在项目的.dfx/local/目录下添加 canisters 目录
 
-**`dfx build`** 命令会在项目的.dfx/local/目录下添加 canisters 目录
-
-1. 运行下面的命令检查 dfx build 命令创建的 .dfx/local/canisters/explore\_hello 目录包含 WebAssembly 和相关应用文件。
+3. 运行下面的命令检查 dfx build 命令创建的 .dfx/local/canisters/explore\_hello 目录包含 WebAssembly 和相关应用文件。
 
 **`ls -l .dfx/local/canisters/explore_hello/`**
 
 命令输出
 
 ```text
--rw-r--r--  1 pubs  staff     43 Jul 21 12:18 explore_hello.did
--rw-r--r--  1 pubs  staff    103 Jul 21 12:18 explore_hello.did.js
--rw-r--r--  1 pubs  staff    174 Jul 21 12:18 explore_hello.js
--rw-r--r--  1 pubs  staff  95905 Jul 21 12:18 explore_hello.wasm
+-rw-r--r--  1 pubs  staff     178 Apr  6 14:25 explore_hello.d.ts
+-rw-r--r--  1 pubs  staff      41 Apr  6 14:25 explore_hello.did
+-rw-r--r--  1 pubs  staff     155 Apr  6 14:25 explore_hello.did.js
+-rw-r--r--  1 pubs  staff     142 Apr  6 14:25 explore_hello.js
+-rw-r--r--  1 pubs  staff  157613 Apr  6 14:25 explore_hello.wasm
 ```
 
 canisters/explore\_hello 目录包含如下关键文件：

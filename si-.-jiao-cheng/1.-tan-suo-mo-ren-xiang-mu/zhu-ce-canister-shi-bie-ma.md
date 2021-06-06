@@ -6,9 +6,9 @@
 
 在本地网络注册 Canister 识别码步骤：
 
-进入项目根目录
+1.进入项目根目录
 
-运行下面的命令注册 Canister 识别码
+2.运行下面的命令注册 Canister 识别码
 
 **`dfx canister create --all`**
 
