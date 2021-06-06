@@ -11,5 +11,5 @@
 dfx deploy
 ```
 
-dfx deploy命令会输出执行的操作信息
+dfx deploy命令会输出执行的操作信息。
 

@@ -4,15 +4,6 @@
 
 1. 打开终端
 2. 进入工作目录
-3. 运行下面的命令来创建项目
-
-```text
-dfx new my_counter
-```
-
-1. 进入项目目录
-
-```text
-cd my_counter
-```
+3. 运行下面的命令来创建项目 **`dfx new location_hello`**
+4. 进入项目目录 **`cd location_hello`**
 
