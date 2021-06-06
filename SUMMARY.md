@@ -112,7 +112,7 @@
     * [注册构建并部署应用](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/zhu-ce-gou-jian-bing-bu-shu-ying-yong.md)
     * [在部署的Canister中调用方法](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/zai-bu-shu-de-canister-zhong-tiao-yong-fang-fa.md)
     * [在浏览器中测试函数](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/zai-liu-lan-qi-zhong-ce-shi-han-shu.md)
-    * [关闭本地网](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/4.-zi-ran-shu-zi-zeng/guan-bi-ben-di-wang.md)
   * [5.计算函数中使用整数](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/README.md)
     * [开始之前](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/kai-shi-zhi-qian.md)
     * [创建新项目](si-.-jiao-cheng/5.-ji-suan-han-shu-zhong-shi-yong-zheng-shu/chuang-jian-xin-xiang-mu.md)
