@@ -4,10 +4,13 @@
 
 本地部署：
 
-1. 检查是否在项目根目录
-2. 通过运行以下命令来注册，构建和部署access\_hello后端程序：
+1.检查是否在项目根目录。
 
-dfx deploy access\_hello
+2.通过运行以下命令来注册，构建和部署access\_hello后端程序。
+
+```text
+dfx deploy access_hello
+```
 
 ```text
 Creating a wallet canister on the local network.
