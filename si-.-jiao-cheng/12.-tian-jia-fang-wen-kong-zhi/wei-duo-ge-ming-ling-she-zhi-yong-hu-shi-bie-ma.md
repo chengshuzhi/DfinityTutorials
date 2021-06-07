@@ -4,8 +4,8 @@
 
 以一个用户身份运行多个命令：
 
-1. 进入项目目录
-2. 通过运行以下命令列出当前可用的用户身份：
+1. 进入项目目录。
+2. 通过运行以下命令列出当前可用的用户身份。
 
 ```text
 dfx identity list
@@ -22,7 +22,7 @@ ic_admin
 
 在此示例中，除非您明确选择其他身份，否则将使用默认用户身份。
 
-1. 从列表中选择一个新的用户身份，并通过运行类似于以下命令的命令将其设置为活动用户：
+3.从列表中选择一个新的用户身份，并通过运行类似于以下命令的命令将其设置为活动用户。
 
 ```text
 dfx identity use ic_admin
@@ -30,7 +30,9 @@ dfx identity use ic_admin
 
 输出类似以下内容：
 
-**`Using identity: "ic_admin".`**
+```text
+Using identity: "ic_admin".
+```
 
 如果重新运行dfx identity list命令，则ic\_admin用户身份将显示一个星号，以指示它是当前活动的用户。
 

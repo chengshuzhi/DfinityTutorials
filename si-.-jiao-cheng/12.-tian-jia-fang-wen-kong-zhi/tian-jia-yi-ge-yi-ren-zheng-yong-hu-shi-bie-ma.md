@@ -4,8 +4,9 @@
 
 要添加新的authorized用户身份：
 
-1. 进入项目目录
-2. 通过运行以下命令来创建新的authorized用户身份：
+1.进入项目目录。
+
+2.通过运行以下命令来创建新的authorized用户身份。
 
 ```text
 dfx identity new alice_auth
@@ -18,15 +19,17 @@ Creating identity: "alice_auth".
 Created identity: "alice_auth".
 ```
 
-1. 通过运行以下命令，将当前活动的身份切换为新的alice\_auth用户身份：
+3.通过运行以下命令，将当前活动的身份切换为新的alice\_auth用户身份。
 
 ```text
 dfx identity use alice_auth
 ```
 
-1. 通过运行以下命令，将alice\_auth用户的账户存储在环境变量中：
+4.通过运行以下命令，将alice\_auth用户的账户存储在环境变量中。
 
-**`ALICE_ID=$(dfx canister --no-wallet call access_hello callerPrincipal | sed 's/[\\(\\)]//g')`**
+```text
+ALICE_ID=$(dfx canister --no-wallet call access_hello callerPrincipal | sed 's/[\\(\\)]//g')
+```
 
 您可以通过运行以下命令来验证存储的账户：
 
@@ -40,13 +43,13 @@ echo $ALICE_ID
 principal "b5quc-npdph-l6qp4-kur4u-oxljq-7uddl-vfdo6-x2uo5-6y4a6-4pt6v-7qe"
 ```
 
-1. 通过运行以下命令，使用ic\_admin身份将授权角色分配给alice\_auth：
+6.通过运行以下命令，使用ic\_admin身份将授权角色分配给alice\_auth。
 
 ```text
 dfx --identity ic_admin canister --no-wallet call access_hello assign_role "($ALICE_ID, opt variant{authorized})"
 ```
 
-1. 调用my\_role函数以验证角色分配。
+7.调用my\_role函数以验证角色分配。
 
 ```text
 dfx --identity alice_auth canister --no-wallet call access_hello my_role
@@ -58,7 +61,7 @@ dfx --identity alice_auth canister --no-wallet call access_hello my_role
 (opt variant { authorized })
 ```
 
-1. 通过运行以下命令，使用刚刚分配了authorized角色的alice\_auth用户身份调用greet函数：
+8.通过运行以下命令，使用刚刚分配了authorized角色的alice\_auth用户身份调用greet函数。
 
 ```text
 dfx canister --no-wallet call access_hello greet "Alice"

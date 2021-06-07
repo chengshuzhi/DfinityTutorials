@@ -190,7 +190,7 @@
     * [添加授权用户身份](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/tian-jia-yi-ge-yi-ren-zheng-yong-hu-shi-bie-ma.md)
     * [添加未授权的用户身份](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/tian-jia-wei-shou-quan-de-yong-hu-shen-fen.md)
     * [为多个命令设置用户识别码](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/wei-duo-ge-ming-ling-she-zhi-yong-hu-shi-bie-ma.md)
-    * [关闭本地网](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/guan-bi-ben-di-wang.md)
     * [更多内容](si-.-jiao-cheng/12.-tian-jia-fang-wen-kong-zhi/geng-duo-nei-rong.md)
   * [12.从钱包接受cycles](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/README.md)
     * [开始之前](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/kai-shi-zhi-qian.md)
