@@ -199,7 +199,7 @@
     * [启动本地网络](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/qi-dong-ben-di-wang-luo.md)
     * [注册构建并部署应用](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/zhu-ce-gou-jian-bing-bu-shu-ying-yong.md)
     * [测试应用](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/ce-shi-ying-yong.md)
-    * [关闭本地网](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/guan-bi-ben-di-wang.md)
+    * [关闭本地网络](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/guan-bi-ben-di-wang.md)
     * [更多内容](si-.-jiao-cheng/13.-cong-qian-bao-jie-shou-cycles/geng-duo-nei-rong.md)
 * [五 、参考资料](wu-can-kao-zi-liao/README.md)
   * [Untitled](wu-can-kao-zi-liao/untitled-8.md)
