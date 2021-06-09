@@ -1,0 +1,11 @@
+# 注册、构建和部署应用程序
+
+在验证您的Cycles钱包余额后，您可以注册、构建和部署您的示例应用程序。
+
+1. 进入项目根目录。
+2. 如果需要，通过运行以下命令确保node在您的项目目录中可用：﻿ ﻿`npm install`
+3. 通过运行以下命令注册、构建和部署您的第一个应用程序：﻿ ﻿`dfx deploy --network ic`﻿ ﻿--network 选项指定用于部署应用程序的网络别名或 URL。 在远程运行的 Internet Computer上安装需要此选项。﻿ ﻿dfx deploy 命令输出显示有关它执行的操作的信息。﻿ ﻿例如，此步骤注册两个特定于网络的标识符——一个用于 hello 主程序，一个用于 hello\_assets 前端用户界面——以及类似于以下的安装信息：﻿ ﻿`Deploying all canisters.﻿ ﻿Creating canisters...﻿ ﻿Creating canister "hello"...﻿ ﻿"hello" canister created on network "ic" with canister id: "5o6tz-saaaa-aaaaa-qaacq-cai"﻿ ﻿Creating canister "hello_assets"...﻿ ﻿"hello_assets" canister created on network "ic" with canister id: "5h5yf-eiaaa-aaaaa-qaada-cai"﻿ ﻿Building canisters...﻿ ﻿Building frontend...﻿ ﻿Installing canisters...﻿ ﻿Installing code for canister hello, with canister_id 5o6tz-saaaa-aaaaa-qaacq-cai﻿ ﻿Installing code for canister hello_assets, with canister_id 5h5yf-eiaaa-aaaaa-qaada-cai﻿ ﻿Authorizing our identity (default) to the asset canister...﻿ ﻿Uploading assets to asset canister...﻿ ﻿/index.html 1/1 (472 bytes)﻿ ﻿/index.html (gzip) 1/1 (314 bytes)﻿ ﻿/index.js 1/1 (260215 bytes)﻿ ﻿/index.js (gzip) 1/1 (87776 bytes)﻿ ﻿/main.css 1/1 (484 bytes)﻿ ﻿/main.css (gzip) 1/1 (263 bytes)﻿ ﻿/sample-asset.txt 1/1 (24 bytes)﻿ ﻿/logo.png 1/1 (25397 bytes)﻿ ﻿/index.js.map 1/1 (842511 bytes)﻿ ﻿/index.js.map (gzip) 1/1 (228404 bytes)﻿ ﻿/index.js.LICENSE.txt 1/1 (499 bytes)﻿ ﻿/index.js.LICENSE.txt (gzip) 1/1 (285 bytes)﻿ ﻿Deployed canisters.`﻿ ﻿如果您没有将足够的 ICP 代币转换为Cycles来完成操作，您可以通过运行类似于以下的命令将Cycles添加到您的钱包中：﻿ ﻿`dfx ledger --network ic top-up gastn-uqaaa-aaaae-aaafq-cai --amount 1.005`﻿ ﻿此命令将额外的 1.005 个 ICP 代币转换为 gastn-uqaaa-aaaae-aaafq-cai 钱包标识符的Cycles。 该命令返回类似于以下内容的输出：﻿ ﻿`Transfer sent at BlockHeight: 81520﻿ ﻿Canister was topped up!`
+4. 运行以下命令调用 hello Canister和预定义的 greet 函数：﻿ ﻿`dfx canister --network ic call hello greet everyone`﻿ ﻿命令解析：﻿ ﻿使用 --network ic 选项表示您要调用的Canister部署在 ic 网络上。 ic 网络别名是内部保留的用于访问 Internet Computer的别名。﻿ ﻿请注意，--network ic 选项必须位于操作子命令之前，在这种情况下，它是 dfx canister call 命令。﻿ ﻿hello 参数指定要调用的Canister的名称。﻿ ﻿greet 参数指定要在 hello Canister中调用的函数的名称。﻿ ﻿文本字符串everyone 是您要传递给greet 函数的参数。
+5. 验证greet函数返回值 ﻿。 ﻿`("Hello, everyone!")`
+6. 重新运行 dfx wallet balance 命令或刷新浏览器以查看您的新Cycles余额和最近的活动。
+
