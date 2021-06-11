@@ -8,7 +8,7 @@
 2. 注册构建并部署应用命令
 
    ```text
-   dfx deploycopy
+   dfx deploy
    ```
 
    `dfx deploy` 命令会输出执行的操作信息
