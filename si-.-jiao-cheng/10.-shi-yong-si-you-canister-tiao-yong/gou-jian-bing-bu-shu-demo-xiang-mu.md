@@ -6,13 +6,13 @@
 2. 运行下面的命令构建linkedup canister
 
    ```text
-   dfx buildcopy
+   dfx build
    ```
 
 3. 运行下面的命令在本地网络部署项目
 
    ```text
-   dfx canister install --allcopy
+   dfx canister install --all
    ```
 
    您将会看到类似下面的 `connectd`, `linkedup` 和 `linkedup_assets` 三个canisters 的标识符信息：

@@ -27,7 +27,7 @@
    npm audit fix
    ```
 
-5. 编辑器中打开dfx.json文件并验证dfx配置里的版本和你安装的dfx版本一致。
+5. 编辑器中打开dfx.json文件并验证dfx配置里的版本和你安装的dfx版本一致
 
 
 
