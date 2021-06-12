@@ -63,8 +63,6 @@
 
 例如, `src/connectd/main.mo` 定了下面的函数:
 
-+
-
 ```text
 actor Connectd {
   flexible var graph: Digraph.Digraph = Digraph.Digraph();
