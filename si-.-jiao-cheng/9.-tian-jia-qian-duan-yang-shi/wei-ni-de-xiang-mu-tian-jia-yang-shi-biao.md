@@ -13,7 +13,7 @@
 2. 将 `main.css` 文件重命名为 `mycontacts.css`.
 
    ```text
-   mv main.css mycontacts.csscopy
+   mv main.css mycontacts.css
    ```
 
 3. 在编辑器中打开 `mycontacts.css` 文件并删除内容
@@ -68,7 +68,7 @@
 6. 切换到 `src/contacts_assets/src` 目录
 
    ```text
-   cd ../srccopy
+   cd ../src
    ```
 
 7. 在编辑器中打开 `index.js` 文件并删除内容
@@ -160,7 +160,7 @@
    mv index.js index.jsx
    ```
 
-10. 在编辑器中打开 `src/contacts_assets/src/index.html` 文件， 将 `main.css` 替换为 `mycontacts.css` 并且更新 `body` 包含 `<div id="contacts"></div>`.
+10. 在编辑器中打开 `src/contacts_assets/src/index.html` 文件， 将 `main.css` 替换为 `mycontacts.css` 并且更新 `body` 包含.
 
     例如：
 
